@@ -2,11 +2,17 @@
     max-height: 450px;
     max-width: 100%;
 }
+.about .image img.pharmaceuticals {
+    max-height: 380px;
+}
 .about .image img.practicesolution {
-    max-height: 530px;
+    max-height: 480px;
 }
 .about .image img.medicalhemp {
-    max-height: 650px;
+    max-height: 630px;
+}
+.about .image img.partnership {
+    max-height: 350px;
 }
 .about .info .title h1 {
     font-family: InterThin;
@@ -26,8 +32,8 @@
     margin-top: 25px;
     margin-bottom: 10px;
 }
-.about .info .text.diagnostics, .about .info .text.medicalhemp {
-    margin-top: 10px;
+.about .info .text.home-content.home-content-partnership {
+    margin-top: 60px;
 }
 .about .info .text.home-content {
     font-family: InterRegular;
@@ -60,7 +66,7 @@
 }
 .rt {
     padding-left: 30px;
-    padding-right: 0px;
+    padding-right: 30px;
 }
 .lf.image {
     text-align: right;
