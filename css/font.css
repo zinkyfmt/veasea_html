@@ -22,7 +22,10 @@
     font-family: InterSemiBold;
     src: url("../font/inter/Inter-SemiBold.ttf") format("truetype");
 }
-
+@font-face {
+    font-family: InterBold;
+    src: url("../font/inter/Inter-Bold.ttf") format("truetype");
+}
 @font-face {
     font-family: InterRegular;
     src: url("../font/inter/Inter-Regular.ttf") format("truetype");
