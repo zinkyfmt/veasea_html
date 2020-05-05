@@ -98,9 +98,12 @@
     margin-top: 0;
     margin-bottom: 0;
 }
-.expand-content.home-content.clinic {
+.expand-content .clinic-development {
+    padding: 0;
+}
+.clinic-development img {
     width: 100%;
-    height: 1100px;
-    max-height: 1110px;
-    background: url(../image/clinic_background.png) no-repeat;
+}
+.expand-content {
+    margin-top: 10px;
 }
