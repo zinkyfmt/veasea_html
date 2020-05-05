@@ -64,6 +64,9 @@
 .lf {
     padding-left: 50px;
 }
+.lf.clinic-development {
+    padding-right: 50px;
+}
 .rt {
     padding-left: 30px;
     padding-right: 30px;
@@ -82,10 +85,22 @@
     font-size: 48px;
     color: rgb(5, 0, 78);
 }
-.lf {
-
+.about .info .title h1.clinic {
+    font-family: InterSemiBold;
+    letter-spacing: 0.0em;
+    font-size: 36px;
+    color: rgb(5, 0, 78);
+}
+.about .info .text.clinic {
+    font-family: InterThin;
 }
 .rt .title h1.home-title {
     margin-top: 0;
     margin-bottom: 0;
+}
+.expand-content.home-content.clinic {
+    width: 100%;
+    height: 1100px;
+    max-height: 1110px;
+    background: url(../image/clinic_background.png) no-repeat;
 }
