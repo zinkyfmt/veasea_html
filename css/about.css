@@ -2,13 +2,17 @@
     max-height: 450px;
     max-width: 100%;
 }
-
+.about .image img.practicesolution {
+    max-height: 530px;
+}
+.about .image img.medicalhemp {
+    max-height: 650px;
+}
 .about .info .title h1 {
     font-family: InterThin;
     font-size: 53px;
     color: rgb(43, 43, 52);
     letter-spacing: 0.1em;
-    margin-left: 15px;
 }
 
 .about .info .title h1 .span-name {
@@ -18,22 +22,29 @@
 
 .about .info .text {
     font-family: AileronRegular;
-    font-size: 24px;
+    font-size: 28px;
     margin-top: 25px;
     margin-bottom: 10px;
+}
+.about .info .text.diagnostics, .about .info .text.medicalhemp {
+    margin-top: 10px;
 }
 .about .info .text.home-content {
     font-family: InterRegular;
 }
+.about .info .text.home-content.diagnostics, .about .info .text.home-content.medicalhemp {
+    font-size: 26px;
+}
 .expand-content.home-content h2, .expand-content.home-content ul li  {
-    font-size: 24px;
+    font-family: AileronRegular;
+    font-size: 28px;
 }
 .expand-content.home-content h2 {
-    padding-left: 30px;
-    padding-right: 15px;
+    padding-left: 50px;
+    padding-right: 30px;
 }
 .expand-content.home-content ul {
-    padding-left: 55px;
+    padding-left: 75px;
 }
 .expand-content.home-content ul li {
     margin-bottom: 10px;
@@ -45,16 +56,25 @@
     text-decoration: none;
 } */
 .lf {
+    padding-left: 50px;
+}
+.rt {
     padding-left: 30px;
+    padding-right: 0px;
+}
+.lf.image {
+    text-align: right;
+    padding-right: 0;
+}
+.rt.image {
+    padding-left: 0;
     padding-right: 30px;
 }
-
 .about .info .title h1.home-title {
     font-family: InterSemiBold;
     letter-spacing: 0.0em;
     font-size: 48px;
     color: rgb(5, 0, 78);
-    margin-left: 15px;
 }
 .lf {
 
