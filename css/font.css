@@ -1,0 +1,33 @@
+@font-face {
+    font-family: LeagueSpartan;
+    src: url("../font/LeagueSpartan/LeagueSpartanBold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: NeueMontrealLight;
+    src: url("../font/NeueMontreal/NeueMontreal-Light.otf") format("opentype");
+}
+
+@font-face {
+    font-family: NeueMontrealBold;
+    src: url("../font/NeueMontreal/NeueMontreal-Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: InterThin;
+    src: url("../font/inter/Inter-Thin-BETA.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: InterSemiBold;
+    src: url("../font/inter/Inter-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: InterRegular;
+    src: url("../font/inter/Inter-Regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: AileronRegular;
+    src: url("../font/aileron/Aileron-Regular.otf") format("opentype");
+}

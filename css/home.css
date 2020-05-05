@@ -1,0 +1,153 @@
+/* HOME carousel */
+.home-carousel {
+    height: 425px;
+}
+
+.home-carousel .carousel-inner {
+    height: 100%;
+}
+
+.home-carousel .carousel-inner .item {
+    height: 100%;
+}
+
+.home-carousel .carousel-inner .item img {
+    height: 100%;
+}
+
+.home-carousel .carousel-indicators li {
+    width: 15px !important;
+    height: 15px !important;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: rgb(39, 39, 39);
+    border: none;
+}
+
+.home-carousel .carousel-indicators li.active {
+    background-color: rgb(85, 124, 194);
+}
+
+.home-carousel .carousel-caption {
+    text-shadow: unset;
+}
+
+.home-carousel .carousel-caption h1 {
+    font-family: LeagueSpartan;
+    letter-spacing: 0.1em;
+    font-size: 50px;
+    color: rgb(43, 43, 52);
+    letter-spacing: 0.1em;
+}
+
+.home-carousel .carousel-caption h1 .span-name {
+    color: rgb(85, 124, 194);
+}
+
+.home-carousel .carousel-caption h5 {
+    font-family: NeueMontrealLight;
+    color: rgb(43, 43, 52);
+    line-height: 1.23;
+    letter-spacing: 0.1em;
+    font-size: 20px;
+    text-transform: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.home-carousel .carousel-caption h3 {
+    font-family: NeueMontrealBold;
+    letter-spacing: 0.1em;
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: rgb(43, 43, 52);
+}
+
+.home-carousel div.line {
+    width: 100px;
+    margin: auto;
+    background: rgb(43, 43, 52);
+    height: 2px;
+    margin-bottom: 30px;
+}
+/* End HOME carousel */
+
+/* Home Bottom Menu */
+.home-menu {
+    width: 90%;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+}
+
+.home-menu .row {
+    height: 100%;
+}
+
+.home-menu .item-menu {
+    height: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+.home-menu .item-menu .child-item-menu {
+    height: 100%;
+}
+
+.home-menu .item-menu .child-item-menu .info {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.home-menu .item-menu .child-item-menu .info .line {
+    width: 60%;
+    background: #fff;
+    height: 2px;
+    margin: auto;
+}
+
+.home-menu .item-menu .child-item-menu .info .text {
+    font-size: 33.8px;
+    color: #fff;
+    text-align: center;
+}
+
+.home-menu .item-menu .child-item-menu.child-1 {
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../image/3.png");
+}
+
+.home-menu .item-menu .child-item-menu.child-2 {
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../image/4.png");
+}
+
+.home-menu .item-menu .child-item-menu.child-3 {
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../image/5.png");
+}
+
+.home-menu .item-menu .child-item-menu.child-4 {
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../image/3.png");
+}
+
+.home-menu .item-menu .child-item-menu:hover {
+    background-image: none;
+    background-color: rgb(85, 124, 194);
+}
+/* End Home Bottom Menu */
