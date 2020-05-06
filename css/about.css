@@ -7,14 +7,14 @@
     max-width: 100%;
 }
 .about .image img.clinic {
-    max-height: 470px;
+    max-height: 330px;
     max-width: 100%;
 }
 .about .image img.pharmaceuticals {
-    max-height: 380px;
+    max-height: 290px;
 }
 .about .image img.practicesolution {
-    max-height: 480px;
+    max-height: 400px;
 }
 .about .image img.medicalhemp {
     max-height: 525px;
@@ -24,7 +24,7 @@
 }
 .about .info .title h1 {
     font-family: InterThin;
-    font-size: 53px;
+    font-size: 43px;
     color: rgb(43, 43, 52);
     letter-spacing: 0.1em;
 }
@@ -36,25 +36,25 @@
 
 .about .info .text {
     font-family: AileronRegular;
-    font-size: 28px;
+    font-size: 22px;
     margin-top: 25px;
     margin-bottom: 10px;
 }
 .about .info .text.home-content.home-content-partnership {
-    margin-top: 60px;
+    /*margin-top: 60px;*/
 }
 .about .info .text.home-content {
     font-family: InterRegular;
 }
 .about .info .text.home-content.diagnostics {
-    font-size: 26px;
+    font-size: 22px;
 }
 .about .info .text.home-content.medicalhemp {
-    font-size: 24px;
+    font-size: 22px;
 }
 .expand-content.home-content h2, .expand-content.home-content ul li  {
     font-family: AileronRegular;
-    font-size: 28px;
+    font-size: 22px;
 }
 .expand-content.home-content h2 {
     padding-left: 50px;
@@ -72,11 +72,26 @@
     color: rgb(255, 22, 22);
     text-decoration: none;
 } */
+.lf.lf-about {
+    margin-top: 45px;
+}
 .lf {
     padding-left: 50px;
 }
 .lf.clinic-development {
     padding-right: 50px;
+}
+.lf-partnership {
+    margin-top: 50px;
+}
+.rt-diagnostics {
+    margin-top: 40px;
+}
+.lf.lf-practicesolution {
+    margin-top: 30px;
+}
+.rt-medicalhemp {
+    margin-top: 20px;
 }
 .rt {
     padding-left: 30px;
@@ -93,7 +108,7 @@
 .about .info .title h1.home-title {
     font-family: InterSemiBold;
     letter-spacing: 0.0em;
-    font-size: 48px;
+    font-size: 38px;
     color: rgb(5, 0, 78);
 }
 .about .info .title h1.clinic {
@@ -125,7 +140,7 @@
 .clinic-detail .title h1.clinic-expand {
     font-family: InterBold;
     letter-spacing: 0.0em;
-    font-size: 42px;
+    font-size: 32px;
     color: rgb(5, 0, 78);
 }
 .clinic-expand-detail {
@@ -134,7 +149,7 @@
 .clinic-expand-detail p {
     margin: 0;
     font-family: InterRegular;
-    font-size: 26px;
+    font-size: 22px;
 }
 .clinic-expand-detail .sub-title {
     margin-top: 10px;
@@ -159,14 +174,14 @@ img.clinic_timeline {
 .left-timeline .vertical-middle h1 {
     font-family: InterBold;
     letter-spacing: 0.0em;
-    font-size: 42px;
+    font-size: 32px;
     margin-top: 0px;
     margin-left: 10px;
 }
 .left-timeline .vertical-middle .home-content.clinic {
-    margin-top: 40px;
+    margin-top: 30px;
     font-family: InterRegular;
-    font-size: 26px;
+    font-size: 22px;
 }
 .timeline-plan {
     margin-top: 40px;
@@ -185,7 +200,7 @@ img.clinic_timeline {
 }
 .lf.tinctures, .lf.salve_stick, .lf.gel_capsules {
     padding-left: 10px;
-    padding-right: 10px;
+    padding-right: 0px;
 }
 
 .about .info .product-image {
@@ -194,28 +209,34 @@ img.clinic_timeline {
     float: left;
 }
 .about .info .product-image img {
-    max-height: 320px;
+    max-height: 280px;
+}
+.about .info.gel_capsules .product-image img, .about .info.salve_stick .product-image img{
+    max-height: 280px;
 }
 .about .info .product-text {
     float: left;
     width: 60%;
     padding-left: 10px;
     font-family: AileronRegular;
-    font-size: 21px;
+    font-size: 18px;
     color: rgb(43, 43, 52);
+    height: 300px;
+    position: relative;
 }
 .about .info.gel_capsules .product-text {
-    padding-left: 20px;
+    padding-left: 10px;
 }
 .about .info.salve_stick .product-text {
-    font-size: 19px;
+    font-size: 18px;
 }
 .about .info .product-text h1 {
     font-family: InterSemiBold;
-    font-size: 58px;
+    font-size: 40px;
+    margin-top: 30px;
 }
 .about .info.salve_stick .product-text h1 {
-    font-size: 50px;
+    font-size: 40px;
 }
 .about .info .product-text ul {
     padding-left: 0;
@@ -224,11 +245,11 @@ img.clinic_timeline {
     list-style: none;
 }
 .about .image.product-label {
-    height: 320px;
+    height: 300px;
     position: relative;
 }
 .about .image.product-label img {
-    height: 320px;
+    height: 300px;
     position: absolute;
     margin: auto;
     top: 0;

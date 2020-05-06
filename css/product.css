@@ -3,9 +3,10 @@
 }
 .product .title h1 {
     font-family: InterThin;
-    font-size: 53px;
+    font-size: 40px;
     color: rgb(43, 43, 52);
     letter-spacing: 0.1em;
+    margin-left: 20px;
 }
 
 .product .title h1 .span-name {
@@ -25,7 +26,7 @@
 
 .product .item .item-image {
     /*width: 100%;*/
-    height: 180px;
+    height: 165px;
 }
 
 .product .item .item-left {
@@ -54,7 +55,7 @@
 }
 
 .product .item .item-info .item-info-text {
-    font-size: 19.7px;
+    font-size: 17px;
 }
 
 .product .item .item-info .item-info-blue {
@@ -70,7 +71,7 @@
 }
 
 .product .item .item-info .item-info-blue .blue-2 .text {
-    font-size: 15px;
+    font-size: 13px;
     color: rgb(5, 0, 78);
     text-align: center;
     margin-top: 5px;
@@ -81,7 +82,7 @@
 }
 .product .item .item-info {
     position: relative;
-    padding-right: 10px;
+    padding-right: 70px;
     padding-left: 0;
 }
 .product .item .item-info .arrow {
@@ -89,7 +90,7 @@
     position: absolute;
     top: 40px;
     right: 15px;
-    width: 34px;
+    width: 28px;
 }
 .product .item:hover .item-info .arrow {
     display: block;

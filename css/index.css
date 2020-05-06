@@ -27,7 +27,7 @@
     margin-right: 5px;
 }
 .navbar .nav li a .menu-icon img {
-    width: 20px;
+    width: 16px;
 }
 .navbar .nav li a:hover .menu-icon {
     opacity: 1;
@@ -41,7 +41,7 @@
 
 .navbar .nav li a .text {
     text-transform: uppercase;
-    font-size: 18px;
+    font-size: 15px;
 }
 
 .navbar .nav li a .line {
