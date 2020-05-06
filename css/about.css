@@ -147,17 +147,16 @@ img.clinic_timeline {
 .left-timeline {
     background: rgb(46, 39, 148);
     height: 335px;
-    padding: 50px;
     color: #fff;
 }
-.left-timeline h1 {
+.left-timeline .vertical-middle h1 {
     font-family: InterBold;
     letter-spacing: 0.0em;
     font-size: 42px;
     margin-top: 0px;
     margin-left: 10px;
 }
-.left-timeline .home-content.clinic {
+.left-timeline .vertical-middle .home-content.clinic {
     margin-top: 40px;
     font-family: InterRegular;
     font-size: 26px;
@@ -168,4 +167,12 @@ img.clinic_timeline {
 }
 .clinic-row .row {
     margin-bottom: 30px;
+}
+.vertical-middle {
+    padding-left: 40px;
+    padding-right: 40px;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
 }
