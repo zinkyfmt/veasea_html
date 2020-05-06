@@ -46,8 +46,11 @@
 .about .info .text.home-content {
     font-family: InterRegular;
 }
-.about .info .text.home-content.diagnostics, .about .info .text.home-content.medicalhemp {
+.about .info .text.home-content.diagnostics {
     font-size: 26px;
+}
+.about .info .text.home-content.medicalhemp {
+    font-size: 24px;
 }
 .expand-content.home-content h2, .expand-content.home-content ul li  {
     font-family: AileronRegular;
