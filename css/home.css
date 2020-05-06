@@ -63,6 +63,16 @@
     color: rgb(43, 43, 52);
 }
 
+.home-carousel .carousel-caption h3 a {
+    font-family: NeueMontrealBold;
+    letter-spacing: 0.1em;
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: rgb(43, 43, 52);
+}
+.home-carousel .carousel-caption h3 a:hover, .home-carousel .carousel-caption h3 a:active {
+    text-decoration: none;
+}
 .home-carousel div.line {
     width: 100px;
     margin: auto;
@@ -78,7 +88,7 @@
     margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
-    height: 300px;
+    height: 280px;
 }
 
 .home-menu .row {

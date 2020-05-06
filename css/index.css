@@ -18,17 +18,22 @@
 .navbar .nav li a {
     display: flex;
 }
-
 .navbar .nav li a .menu-icon {
+    width: 20px;
+    opacity: 0;
+}
+.navbar .nav li a .menu-icon1 {
     display: none;
     margin-top: 5px;
     margin-right: 5px;
 }
 
 .navbar .nav li a:hover .menu-icon {
+    opacity: 1;
     display: inline-block;
 }
 .navbar .nav li a.active .menu-icon {
+    opacity: 1;
     display: inline-block;
 }
 
@@ -68,7 +73,7 @@
     color: rgb(43, 43, 52);
 }
 
-.navbar .nav .menu-icon {
+.navbar .nav .menu-icon1 {
     overflow: hidden;
     background-size: cover;
     background-position: center;
@@ -148,3 +153,26 @@
 }
 
 /* End Footer */
+
+
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+    padding-top: 102px;
+}
+.navbar {
+    border-radius: 0px;
+    /*box-shadow: 0px 2px 5px rgba(0,0,0,0.5);*/
+}
+.carousel-control:focus, .carousel-control:hover {
+    opacity: 0 !important;
+}
+.carousel-control.right, .carousel-control.left {
+    opacity: 0 !important;
+}
