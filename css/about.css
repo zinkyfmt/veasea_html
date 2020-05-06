@@ -2,6 +2,10 @@
     max-height: 350px;
     max-width: 100%;
 }
+.about .image img.diagnostics {
+    max-height: 450px;
+    max-width: 100%;
+}
 .about .image img.clinic {
     max-height: 470px;
     max-width: 100%;
@@ -13,7 +17,7 @@
     max-height: 480px;
 }
 .about .image img.medicalhemp {
-    max-height: 630px;
+    max-height: 525px;
 }
 .about .image img.partnership {
     max-height: 350px;
