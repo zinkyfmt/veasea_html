@@ -184,8 +184,10 @@ img.clinic_timeline {
     transform: translateY(-50%);
 }
 .lf.tinctures, .lf.salve_stick, .lf.gel_capsules {
-    padding-left: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
+
 .about .info .product-image {
     text-align: right;
     width: 40%;
@@ -201,6 +203,9 @@ img.clinic_timeline {
     font-family: AileronRegular;
     font-size: 21px;
     color: rgb(43, 43, 52);
+}
+.about .info.gel_capsules .product-text {
+    padding-left: 20px;
 }
 .about .info.salve_stick .product-text {
     font-size: 19px;
