@@ -35,7 +35,7 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
             <li>
-              <a href="/about" >
+              <a href="/about">
                 <div class="menu-icon">
                   <img src="./image/mini_logo.png">
                 </div>
@@ -57,7 +57,7 @@
               </a>
             </li>
             <li>
-              <a href="/product" >
+              <a href="product" >
                 <div class="menu-icon">
                   <img src="./image/mini_logo.png">
                 </div>
@@ -68,7 +68,7 @@
               </a>
             </li>
             <li>
-              <a href="/partnership" class="active">
+              <a href="/partnership">
                 <div class="menu-icon">
                   <img src="./image/mini_logo.png">
                 </div>
@@ -79,7 +79,7 @@
               </a>
             </li>
             <li>
-              <a href="/contact_us">
+              <a href="/contact_us" class="active">
                 <div class="menu-icon">
                   <img src="./image/mini_logo.png">
                 </div>
@@ -107,18 +107,68 @@
     <!-- End Navbar menu -->
 
     <div class="about block-top height-block">
-      <div class="row mr-0 ml-0 wrap-container">
-        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 lf lf-partnership info">
-          <div class="col-12 title">
-            <h1 class="home-title">Partnerships</h1>
-          </div>
-          <div class="col-12 text home-content home-content-partnership">
-            Versea Holdings has partnerships with leading researchers, technology innovators and leading service providers
-            facilitating the development and commercialization of unique and innovative product and service offerings.
-          </div>
+      <div class="row mr-0 ml-0 wrap-container management-team">
+        <div class="col-12 title team-header lf">
+          <img src="./image/mini_logo.png">
+          <h1 class="manage-title">Contact Us</h1>
         </div>
-        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 rt image pr-3 pl-0">
-          <img class="partnership" src="./image/partnership.png" alt="partnership"/>
+      </div>
+      <div class="contact-form">
+        <div class="row mr-0 ml-0">
+          <div class="wrap-container">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+              <div class="col-12 contact-detail">
+                <h3 class="sub-title"><strong>Contact Detail</strong></h3>
+                <p><img src="https://versea.com/img/icon_envelope.png">
+                  <a class="footerlink" href="mailto:info@versea.com">info@versea.com</a></p>
+                <p><img src="https://versea.com/img/icon_phone.png">
+                  +1 (800) 397-0670</p>
+                <p>1701 N 14th St #B</p>
+                <p>Tampa, FL 33605</p>
+                <br>
+                <p>Versea Holdings LTD</p>
+                <p>3rd Floor, Arnett House</p>
+                <p>12-16 Bridge Street</p>
+                <p>Belfast</p>
+                <p>BT1 1LU</p>
+                <p>United Kingdom</p>
+                <p>EU Phone Number:</p>
+                <p>+44 (203) 746-3837</p>
+                <br>
+                <p>Hours of operation 9am-5pm EST</p>
+                <br>
+                <p>Charges on your statement</p>
+                <p>will appear as Versea442037463837</p>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+              <div class="col-12 title">
+                <h3 class="sub-title"><strong>Contact Form</strong></h3>
+                <div id="contact_div">
+                  <div class="form-group">
+                    <select class="form-control blahblahX" id="from" name="from" required="">
+                      <option value="" selected="" disabled="" style="color:grey !important;display:none">... Please select ...</option>
+                      <option value="PD">I'm a Customer looking for an Healthcare Professional</option>
+                      <option value="HCP">I'm a Healthcare Professional interested in Versea products</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <input class="form-control" type="text" id="name" name="name" placeholder="Your Name...">
+                  </div>
+                  <div class="form-group">
+                    <input class="form-control" type="text" id="email" name="email" placeholder="Your Email...">
+                  </div>
+                  <div class="form-group">
+                    <input class="form-control" type="text" id="phone" name="phone" placeholder="Your Phone Number...">
+                  </div>
+                  <div class="form-group">
+                    <textarea class="form-control" id="message" name="message" placeholder="Type your message here" style="height:200px"></textarea>
+                  </div>
+                  <button type="button" class="btn btn-blue" onclick="contact()">Submit</button>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -135,7 +185,38 @@
     </div>
     <!-- End Footer -->
   </div>
-  <script type="text/javascript" src="js/index.js"></script>
+  <script type="text/javascript">
+    function contact() {
+      var from = $("#from").val();
+      var name = $("#name").val();
+      var email = $("#email").val();
+      var phone = $("#phone").val();
+      var message = $("#message").val();
+
+      console.log(from);
+      if (from == "" || from == null) {
+        $("#from").css("background-color", "pink");
+        return false;
+      }
+      if (email == "" || email == null) {
+        $("#email").css("background-color", "pink");
+        return false;
+      }
+      if (message == "" || message == null) {
+        $("#message").css("background-color", "pink");
+        return false;
+      }
+      $.get("ajax_contact.php", {
+        from: from,
+        name: name,
+        email: email,
+        phone: phone,
+        message: message,
+      }).done(function (data) {
+        $("#contact_div").html("<span style='color:green;font-size:20px;'>Contact info and message sent!</span>");
+      });
+    }
+  </script>
 </body>
 
 </html>
