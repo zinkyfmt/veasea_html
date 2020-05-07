@@ -204,44 +204,39 @@ img.clinic_timeline {
 }
 
 .about .info .product-image {
-    text-align: right;
-    width: 40%;
-    float: left;
+    text-align: center;
 }
 .about .info .product-image img {
-    max-height: 280px;
+    max-height: 500px;
 }
 .about .info.gel_capsules .product-image img, .about .info.salve_stick .product-image img{
-    max-height: 280px;
+    /*max-height: 280px;*/
 }
-.about .info .product-text {
-    float: left;
-    width: 60%;
+.about .product-text {
     padding-left: 10px;
     font-family: AileronRegular;
     font-size: 18px;
     color: rgb(43, 43, 52);
-    height: 300px;
     position: relative;
 }
 .about .info.gel_capsules .product-text {
     padding-left: 10px;
 }
-.about .info.salve_stick .product-text {
+.about .product-text {
     font-size: 18px;
 }
-.about .info .product-text h1 {
+.about .product-text h1 {
     font-family: InterSemiBold;
     font-size: 40px;
-    margin-top: 30px;
+    margin-top: 10px;
 }
-.about .info.salve_stick .product-text h1 {
+.about .product-text h1 {
     font-size: 40px;
 }
-.about .info .product-text ul {
+.about .product-text ul {
     padding-left: 0;
 }
-.about .info .product-text ul li {
+.about .product-text ul li {
     list-style: none;
 }
 .about .image.product-label {
