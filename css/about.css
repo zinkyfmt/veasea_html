@@ -140,11 +140,11 @@
 .clinic-detail .title h1.clinic-expand {
     font-family: InterBold;
     letter-spacing: 0.0em;
-    font-size: 32px;
+    font-size: 26px;
     color: rgb(5, 0, 78);
 }
 .clinic-expand-detail {
-    padding-left: 20px;
+    /*padding-left: 20px;*/
 }
 .clinic-expand-detail p, .contact-form .sub-title, .contact-form p, .contact-form .sub-title, .contact-form p a {
     margin: 0;
@@ -155,13 +155,14 @@
     margin-top: 10px;
 }
 .clinic-expand-detail.home-content ul li  {
-    font-family: AileronRegular;
-    font-size: 26px;
+    font-family: InterRegular;
+    font-size: 22px;
     margin-top: 10px;
 }
 img.clinic_timeline {
     width: 100%;
-    height: 335px;
+    max-width: 900px;
+    margin: 10px 0;
 }
 .clear-padding {
     padding: 0;
@@ -314,7 +315,7 @@ a.footerlink:hover, a.footerlink:focus, a.footerlink.active {
     color: rgb(43, 43, 52);
 }
 .contact-form .contact-detail {
-    text-align: center;
+    text-align: left;
 }
 .contact-form .form-group {
     margin-bottom: 20px;
@@ -330,4 +331,7 @@ a.footerlink:hover, a.footerlink:focus, a.footerlink.active {
 }
 .contact-form .btn:hover {
     background: #47467e;
+}
+.cus {
+    color: rgb(85, 124, 194);
 }

@@ -61,6 +61,7 @@
 }
 
 .product .item .item-info .item-info-text {
+    font-family: InterRegular;
     font-size: 17px;
 }
 
@@ -77,13 +78,14 @@
 }
 
 .product .item .item-info .item-info-blue .blue-2 .text {
+    font-family: InterRegular;
     font-size: 13px;
     color: rgb(5, 0, 78);
     text-align: center;
     margin-top: 5px;
 }
 
-.product .item.item-2 .item-info .item-info-blue .blue-2 .text {
+.product .row.item-2 .item .item-info .item-info-blue .blue-2 .text {
     color: #fff !important;
 }
 .product .item .item-info {
@@ -105,4 +107,27 @@
     max-width: 1300px;
     margin-left: auto !important;
     margin-right: auto !important;
+}
+.product .info .text {
+    margin-left: 40px;
+    font-family: AileronRegular;
+    font-size: 22px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+#product-category {
+    font-family: AileronRegular;
+    font-size: 22px;
+    padding-left: 0;
+}
+#product-category li {
+    list-style: none;
+}
+.product-category {
+    padding-left: 100px !important
+}
+.product-line .product-line-title {
+    font-family: InterBold;
+    font-size: 26px;
+    color: rgb(5, 0, 78);
 }

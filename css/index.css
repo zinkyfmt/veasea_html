@@ -84,13 +84,13 @@
 }
 
 .navbar .navbar-header .navbar-brand {
-    width: 160px;
+    width: 170px;
     margin-left: 0px;
     padding: 0;
     overflow: hidden;
     background-size: cover;
     background-position: center;
-    background-image: url("../image/logo.png");
+    background-image: url("../image/new_logo.png");
 }
 /* End Header */
 
