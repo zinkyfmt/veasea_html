@@ -1,6 +1,6 @@
 /* HOME carousel */
 .home-carousel {
-    height: 400px;
+    min-height: 400px;
 }
 
 .home-carousel .carousel-inner {
@@ -47,8 +47,9 @@
 .home-carousel .carousel-caption h5 {
     font-family: NeueMontrealLight;
     color: rgb(43, 43, 52);
-    line-height: 1.23;
+    line-height: 1.5;
     letter-spacing: 0.1em;
+    font-weight: 600;
     font-size: 16px;
     text-transform: none;
     padding-top: 5px;
@@ -161,3 +162,7 @@
     background-color: rgb(85, 124, 194);
 }
 /* End Home Bottom Menu */
+
+.carousel-caption {
+    top: 35%;
+}

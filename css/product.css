@@ -95,3 +95,8 @@
 .product .item:hover .item-info .arrow {
     display: block;
 }
+.product .row .wrap-container {
+    max-width: 1300px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}

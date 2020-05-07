@@ -11,13 +11,13 @@
     max-width: 100%;
 }
 .about .image img.pharmaceuticals {
-    max-height: 290px;
+    /*max-height: 290px;*/
 }
 .about .image img.practicesolution {
     max-height: 400px;
 }
 .about .image img.medicalhemp {
-    max-height: 525px;
+    max-height: 655px;
 }
 .about .image img.partnership {
     max-height: 350px;
@@ -73,7 +73,7 @@
     text-decoration: none;
 } */
 .lf.lf-about {
-    margin-top: 45px;
+    margin-top: 40px;
 }
 .lf {
     padding-left: 50px;
@@ -82,16 +82,16 @@
     padding-right: 50px;
 }
 .lf-partnership {
-    margin-top: 50px;
-}
-.rt-diagnostics {
     margin-top: 40px;
 }
+.rt-diagnostics {
+    margin-top: 20px;
+}
 .lf.lf-practicesolution {
-    margin-top: 30px;
+    margin-top: 0px;
 }
 .rt-medicalhemp {
-    margin-top: 20px;
+    margin-top: 0px;
 }
 .rt {
     padding-left: 30px;
@@ -254,4 +254,50 @@ img.clinic_timeline {
     margin: auto;
     top: 0;
     bottom: 0;
+}
+.about .wrap-container, .product .row .wrap-container {
+    max-width: 1300px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.team-header img {
+    float: left;
+    width: 50px;
+}
+.manage-title {
+    font-family: InterSemiBold;
+    letter-spacing: 0.0em;
+    font-size: 36px;
+    color: rgb(5, 0, 78)
+}
+.management-team {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.block-management-team .management-team-header {
+    color: #fff;
+    height: 90px;
+    background: rgb(8, 0, 130);
+}
+.block-management-team .wrap-container {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.block-management-team .management-team-header h3, .block-management-team .management-team-header h4 {
+    font-family: InterRegular;
+}
+.block-management-team .management-team-header h3 {
+    font-size: 22px;
+}
+.block-management-team .management-team-header h4 {
+    font-size: 18px;
+}
+.block-management-team .management-team-content .wrap-container .content {
+    padding: 15px 0;
+    line-height: 1.6;
+    font-family: InterRegular;
+    font-size: 13px;
+}
+.block-management-team .management-team-content .wrap-container .content p {
+    margin-bottom: 5px;
 }

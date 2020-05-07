@@ -171,6 +171,10 @@
     border-radius: 0px;
     /*box-shadow: 0px 2px 5px rgba(0,0,0,0.5);*/
 }
+.navbar .container-fluid {
+    max-width: 1300px;
+    margin: 0 auto;
+}
 .carousel-control:focus, .carousel-control:hover {
     opacity: 0 !important;
 }
