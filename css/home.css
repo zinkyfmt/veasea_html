@@ -35,7 +35,7 @@
 .home-carousel .carousel-caption h1 {
     font-family: LeagueSpartan;
     letter-spacing: 0.1em;
-    font-size: 35px;
+    font-size: 30px;
     color: rgb(43, 43, 52);
     letter-spacing: 0.1em;
 }
@@ -50,24 +50,24 @@
     line-height: 1.5;
     letter-spacing: 0.1em;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 16px;
     text-transform: none;
     padding-top: 5px;
     padding-bottom: 5px;
 }
 
 .home-carousel .carousel-caption h3 {
-    font-family: NeueMontrealBold;
+    font-family: InterBold;
     letter-spacing: 0.1em;
-    font-size: 20px;
+    font-size: 18px;
     margin-bottom: 10px;
     color: rgb(43, 43, 52);
 }
 
 .home-carousel .carousel-caption h3 a {
-    font-family: NeueMontrealBold;
+    font-family: InterBold;
     letter-spacing: 0.1em;
-    font-size: 20px;
+    font-size: 18px;
     margin-bottom: 10px;
     color: rgb(43, 43, 52);
 }
@@ -124,7 +124,7 @@
 }
 
 .home-menu .item-menu .child-item-menu .info .text {
-    font-size: 26px;
+    font-size: 20px;
     color: #fff;
     text-align: center;
 }

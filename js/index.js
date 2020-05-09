@@ -12,7 +12,3 @@ window.onscroll = function() {
         header.classList.remove("sticky");
     }
 };
-setInterval(function() {
-    console.log('slider change');
-    $('.carousel-control.right').trigger('click');
-}, 4000);

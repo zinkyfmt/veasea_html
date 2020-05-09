@@ -3,7 +3,7 @@
 }
 .product .title h1 {
     font-family: InterThin;
-    font-size: 40px;
+    font-size: 30px;
     color: rgb(43, 43, 52);
     letter-spacing: 0.1em;
     margin-left: 20px;
@@ -16,7 +16,7 @@
 
 .product .item {
     cursor: pointer;
-    height: 220px;
+    height: 200px;
 }
 .product .row.item-1, .product .row.item-2 {
     margin: 0;
@@ -28,7 +28,7 @@
 
 .product .item .item-image {
     /*width: 100%;*/
-    height: 165px;
+    height: 150px;
 }
 
 .product .item .item-left {
@@ -39,7 +39,7 @@
 }
 
 .product .item .item-right {
-    margin-top: 20px;
+    margin-top: 30px;
     margin-bottom: 20px;
     padding: 0px;
     width: 78%;
@@ -47,7 +47,7 @@
 
 .product .item .item-name {
     font-family: InterSemiBold;
-    font-size: 25px;
+    font-size: 18px;
     color: rgb(5, 0, 78);
     padding-left: 0;
 }
@@ -62,7 +62,7 @@
 
 .product .item .item-info .item-info-text {
     font-family: InterRegular;
-    font-size: 17px;
+    font-size: 14px;
 }
 
 .product .item .item-info .item-info-blue {
@@ -79,7 +79,7 @@
 
 .product .item .item-info .item-info-blue .blue-2 .text {
     font-family: InterRegular;
-    font-size: 13px;
+    font-size: 12px;
     color: rgb(5, 0, 78);
     text-align: center;
     margin-top: 5px;
@@ -110,14 +110,14 @@
 }
 .product .info .text {
     margin-left: 40px;
-    font-family: AileronRegular;
-    font-size: 22px;
+    font-family: InterRegular;
+    font-size: 16px;
     margin-top: 25px;
     margin-bottom: 10px;
 }
 #product-category {
-    font-family: AileronRegular;
-    font-size: 22px;
+    font-family: InterRegular;
+    font-size: 16px;
     padding-left: 0;
 }
 #product-category li {
@@ -126,8 +126,13 @@
 .product-category {
     padding-left: 100px !important
 }
+.product-category .sub-title {
+    font-size: 18px;
+    font-family: InterSemiBold;
+}
 .product-line .product-line-title {
-    font-family: InterBold;
-    font-size: 26px;
+    font-family: InterSemiBold;
+    font-size: 18px;
     color: rgb(5, 0, 78);
+    padding-left: 50px;
 }

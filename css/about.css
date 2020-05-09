@@ -17,7 +17,7 @@
     max-height: 400px;
 }
 .about .image img.medicalhemp {
-    max-height: 655px;
+    /*max-height: 655px;*/
 }
 .about .image img.partnership {
     max-height: 350px;
@@ -35,8 +35,8 @@
 }
 
 .about .info .text {
-    font-family: AileronRegular;
-    font-size: 22px;
+    font-family: InterRegular;
+    font-size: 16px;
     margin-top: 25px;
     margin-bottom: 10px;
 }
@@ -47,14 +47,14 @@
     font-family: InterRegular;
 }
 .about .info .text.home-content.diagnostics {
-    font-size: 22px;
+    font-size: 16px;
 }
 .about .info .text.home-content.medicalhemp {
-    font-size: 22px;
+    font-size: 16px;
 }
 .expand-content.home-content h2, .expand-content.home-content ul li  {
-    font-family: AileronRegular;
-    font-size: 22px;
+    font-family: InterRegular;
+    font-size: 16px;
 }
 .expand-content.home-content h2 {
     padding-left: 50px;
@@ -82,13 +82,16 @@
     padding-right: 50px;
 }
 .lf-partnership {
-    margin-top: 40px;
+    margin-top: 50px;
+}
+.lf-pharma {
+    margin-top: 30px;
 }
 .rt-diagnostics {
-    margin-top: 20px;
+    margin-top: 50px;
 }
 .lf.lf-practicesolution {
-    margin-top: 0px;
+    margin-top: 40px;
 }
 .rt-medicalhemp {
     margin-top: 0px;
@@ -108,13 +111,13 @@
 .about .info .title h1.home-title {
     font-family: InterSemiBold;
     letter-spacing: 0.0em;
-    font-size: 38px;
+    font-size: 30px;
     color: rgb(5, 0, 78);
 }
 .about .info .title h1.clinic {
     font-family: InterSemiBold;
     letter-spacing: 0.0em;
-    font-size: 36px;
+    font-size: 30px;
     color: rgb(5, 0, 78);
 }
 .about .info .text.clinic {
@@ -140,7 +143,7 @@
 .clinic-detail .title h1.clinic-expand {
     font-family: InterBold;
     letter-spacing: 0.0em;
-    font-size: 26px;
+    font-size: 18px;
     color: rgb(5, 0, 78);
 }
 .clinic-expand-detail {
@@ -149,19 +152,20 @@
 .clinic-expand-detail p, .contact-form .sub-title, .contact-form p, .contact-form .sub-title, .contact-form p a {
     margin: 0;
     font-family: InterRegular;
-    font-size: 22px;
+    font-size: 16px;
+    letter-spacing: 0.2px;
 }
 .clinic-expand-detail .sub-title {
     margin-top: 10px;
 }
 .clinic-expand-detail.home-content ul li  {
     font-family: InterRegular;
-    font-size: 22px;
-    margin-top: 10px;
+    font-size: 16px;
+    margin-top: 5px;
 }
 img.clinic_timeline {
     width: 100%;
-    max-width: 900px;
+    max-width: 750px;
     margin: 10px 0;
 }
 .clear-padding {
@@ -215,8 +219,8 @@ img.clinic_timeline {
 }
 .about .product-text {
     padding-left: 10px;
-    font-family: AileronRegular;
-    font-size: 18px;
+    font-family: InterRegular;
+    font-size: 16px;
     color: rgb(43, 43, 52);
     position: relative;
 }
@@ -224,15 +228,12 @@ img.clinic_timeline {
     padding-left: 10px;
 }
 .about .product-text {
-    font-size: 18px;
+    font-size: 16px;
 }
 .about .product-text h1 {
     font-family: InterSemiBold;
-    font-size: 40px;
+    font-size: 30px;
     margin-top: 10px;
-}
-.about .product-text h1 {
-    font-size: 40px;
 }
 .about .product-text ul {
     padding-left: 0;
@@ -321,7 +322,7 @@ a.footerlink:hover, a.footerlink:focus, a.footerlink.active {
     margin-bottom: 20px;
 }
 .contact-form .form-group .form-control {
-    height: 45px;
+    height: 35px;
 }
 .contact-form .btn {
     padding: 10px 30px;
@@ -334,4 +335,7 @@ a.footerlink:hover, a.footerlink:focus, a.footerlink.active {
 }
 .cus {
     color: rgb(85, 124, 194);
+}
+.clinic-row {
+    margin-top: 80px;
 }
