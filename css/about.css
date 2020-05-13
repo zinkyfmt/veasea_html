@@ -339,3 +339,15 @@ a.footerlink:hover, a.footerlink:focus, a.footerlink.active {
 .clinic-row {
     margin-top: 80px;
 }
+.tabcontent {
+    display: none;
+}
+.tablinks {
+    cursor: pointer;
+}
+.tablinks.active {
+    color: #ffd37c;
+}
+.about {
+    margin-bottom: 30px;
+}
