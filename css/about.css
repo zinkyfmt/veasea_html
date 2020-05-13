@@ -339,9 +339,6 @@ a.footerlink:hover, a.footerlink:focus, a.footerlink.active {
 .clinic-row {
     margin-top: 80px;
 }
-.tabcontent {
-    display: none;
-}
 .tablinks {
     cursor: pointer;
 }
@@ -350,4 +347,22 @@ a.footerlink:hover, a.footerlink:focus, a.footerlink.active {
 }
 .about {
     margin-bottom: 30px;
+}
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    -webkit-animation: fadeEffect 0.5s;
+    animation: fadeEffect 0.5s;
+}
+
+/* Fade in tabs */
+@-webkit-keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
 }
