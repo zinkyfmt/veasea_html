@@ -52,7 +52,7 @@
 .about .info .text.home-content.medicalhemp {
     font-size: 16px;
 }
-.expand-content.home-content h2, .expand-content.home-content ul li  {
+.expand-content.home-content h2, .expand-content.home-content ul li, .expand-content.home-content ol li  {
     font-family: InterRegular;
     font-size: 16px;
 }
@@ -364,4 +364,11 @@ a.footerlink:hover, a.footerlink:focus, a.footerlink.active {
 @keyframes fadeEffect {
     from {opacity: 0;}
     to {opacity: 1;}
+}
+.expand-content .clinic-expand-detail ul, .expand-content .clinic-expand-detail ol {
+    padding-left: 30px;
+    margin-top: 10px;
+}
+.expand-content .clinic-expand-detail ol li{
+    margin-bottom: 10px;
 }
