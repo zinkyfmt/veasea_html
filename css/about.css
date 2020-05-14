@@ -259,21 +259,20 @@ img.clinic_timeline {
 }
 .team-header img {
     float: left;
-    width: 50px;
+    width: 35px;
 }
 .manage-title {
     font-family: InterSemiBold;
     letter-spacing: 0.0em;
-    font-size: 36px;
+    font-size: 30px;
     color: rgb(5, 0, 78)
 }
 .management-team {
-    margin-top: 20px;
     margin-bottom: 20px;
 }
 .block-management-team .management-team-header {
     color: #fff;
-    height: 90px;
+    height: 85px;
     background: rgb(8, 0, 130);
 }
 .block-management-team .wrap-container, .contact-form .wrap-container {
@@ -284,10 +283,10 @@ img.clinic_timeline {
     font-family: InterRegular;
 }
 .block-management-team .management-team-header h3 {
-    font-size: 22px;
+    font-size: 18px;
 }
 .block-management-team .management-team-header h4 {
-    font-size: 18px;
+    font-size: 16px;
 }
 .block-management-team .management-team-content .wrap-container .content {
     padding: 15px 0;
