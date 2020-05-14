@@ -2,11 +2,10 @@
     margin-bottom: 10px;
 }
 .product .title h1 {
-    font-family: InterThin;
+    font-family: InterSemiBold;
     font-size: 30px;
     color: rgb(43, 43, 52);
     letter-spacing: 0.1em;
-    margin-left: 20px;
 }
 
 .product .title h1 .span-name {
@@ -109,7 +108,13 @@
     margin-right: auto !important;
 }
 .product .info .text {
-    margin-left: 40px;
+    /*margin-left: 40px;*/
+    font-family: InterRegular;
+    font-size: 16px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+.product .info .text {
     font-family: InterRegular;
     font-size: 16px;
     margin-top: 25px;
@@ -134,5 +139,8 @@
     font-family: InterSemiBold;
     font-size: 18px;
     color: rgb(5, 0, 78);
+    padding-left: 50px;
+}
+.lf {
     padding-left: 50px;
 }

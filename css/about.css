@@ -73,7 +73,7 @@
     text-decoration: none;
 } */
 .lf.lf-about {
-    margin-top: 40px;
+    margin-top: 0px;
 }
 .lf {
     padding-left: 50px;
@@ -82,10 +82,10 @@
     padding-right: 50px;
 }
 .lf-partnership {
-    margin-top: 50px;
+    /*margin-top: 50px;*/
 }
 .lf-pharma {
-    margin-top: 30px;
+    margin-top: 0px;
 }
 .rt-diagnostics {
     margin-top: 50px;
@@ -336,7 +336,7 @@ a.footerlink:hover, a.footerlink:focus, a.footerlink.active {
     color: rgb(85, 124, 194);
 }
 .clinic-row {
-    margin-top: 80px;
+    margin-top: 110px;
 }
 .tablinks {
     cursor: pointer;

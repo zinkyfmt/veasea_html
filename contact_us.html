@@ -109,7 +109,6 @@
     <div class="about block-top height-block">
       <div class="row mr-0 ml-0 wrap-container management-team">
         <div class="col-12 title team-header lf">
-          <img src="./image/mini_logo.png">
           <h1 class="manage-title">Contact Us</h1>
         </div>
       </div>
@@ -194,14 +193,26 @@
       if (from == "" || from == null) {
         $("#from").css("background-color", "pink");
         return false;
+      } else {
+        $("#from").css("background-color", "#fff");
+      }
+      if (name == "" || name == null) {
+        $("#name").css("background-color", "pink");
+        return false;
+      } else {
+        $("#name").css("background-color", "#fff");
       }
       if (email == "" || email == null) {
         $("#email").css("background-color", "pink");
         return false;
+      } else {
+        $("#email").css("background-color", "#fff");
       }
       if (message == "" || message == null) {
         $("#message").css("background-color", "pink");
         return false;
+      } else {
+        $("#message").css("background-color", "#fff");
       }
       // $.ajax({
       //   type: "POST",
