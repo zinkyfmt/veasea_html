@@ -1,5 +1,5 @@
 .about .image img {
-    max-height: 350px;
+    /*max-height: 350px;*/
     max-width: 100%;
 }
 .about .image img.diagnostics {
@@ -20,7 +20,7 @@
     /*max-height: 655px;*/
 }
 .about .image img.partnership {
-    max-height: 350px;
+    /*max-height: 350px;*/
 }
 .about .info .title h1 {
     font-family: InterThin;
@@ -371,4 +371,13 @@ a.footerlink:hover, a.footerlink:focus, a.footerlink.active {
 }
 .expand-content .clinic-expand-detail ol li{
     margin-bottom: 10px;
+}
+.partnership-middle {
+    padding: 0;
+}
+.clinic-detail {
+    padding-right: 0px;
+}
+.partnership-middle .clinic-detail {
+    padding-right: 20px;
 }
