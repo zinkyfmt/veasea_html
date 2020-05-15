@@ -46,6 +46,74 @@
                   <div class="line">&nbsp;</div>
                 </div>
               </a>
+              <ul class="sub-menu">
+              <li>
+                <a href="/pharmaceuticals">
+                  <div class="menu-icon">
+                    <img src="./image/mini_logo.png">
+                  </div>
+                  <div class="text">
+                    Pharmaceuticals
+                    <div class="line">&nbsp;</div>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="/education">
+                  <div class="menu-icon">
+                    <img src="./image/mini_logo.png">
+                  </div>
+                  <div class="text">
+                    Education
+                    <div class="line">&nbsp;</div>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="/practicesolution">
+                  <div class="menu-icon">
+                    <img src="./image/mini_logo.png">
+                  </div>
+                  <div class="text">
+                    Practice Solutions
+                    <div class="line">&nbsp;</div>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="/diagnostics">
+                  <div class="menu-icon">
+                    <img src="./image/mini_logo.png">
+                  </div>
+                  <div class="text">
+                    Diagnostics
+                    <div class="line">&nbsp;</div>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="/about#management_team">
+                  <div class="menu-icon">
+                    <img src="./image/mini_logo.png">
+                  </div>
+                  <div class="text">
+                    Management Team
+                    <div class="line">&nbsp;</div>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="/about#medical_advisors">
+                  <div class="menu-icon">
+                    <img src="./image/mini_logo.png">
+                  </div>
+                  <div class="text">
+                    Medical Advisors
+                    <div class="line">&nbsp;</div>
+                  </div>
+                </a>
+              </li>
+            </ul>
             </li>
             <li>
               <a href="/clinic_development">
@@ -153,7 +221,7 @@
         </div>
       </div>
       <div class="row mr-0 ml-0 clinic-detail wrap-container management-team">
-        <div class="col-12 title team-header">
+        <div class="col-12 title team-header" id="management_team">
           <h1 class="clinic-expand">MANAGEMENT TEAM</h1>
         </div>
         <div class="col-12 text home-content clinic-expand-detail">
@@ -161,7 +229,7 @@
             success in highly regulated markets. The collective experience of the team spans commercial and clinical operations build-outs, achieving FDA
             product approvals, successful product launches and lifecycle management.</p>
         </div>
-        <div class="col-12 title">
+        <div class="col-12 title" id="medical_advisors">
           <h1 class="clinic-expand">MEDICAL ADVISORS</h1>
         </div>
         <div class="col-12 text home-content clinic-expand-detail">
@@ -494,6 +562,9 @@
   </div>
   <script type="text/javascript" src="js/index.js"></script>
   <script>
+    $(document.body).animate({
+      'scrollTop':   $('#anchorName2').offset().top
+    }, 2000);
     function openTab(evt, name) {
       var i, tabcontent, tablinks;
       tabcontent = document.getElementsByClassName("tabcontent");
