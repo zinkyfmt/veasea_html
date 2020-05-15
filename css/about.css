@@ -24,14 +24,13 @@
 }
 .about .info .title h1 {
     font-family: InterThin;
-    font-size: 43px;
+    font-size: 30px;
     color: rgb(43, 43, 52);
-    letter-spacing: 0.1em;
 }
 
 .about .info .title h1 .span-name {
     font-family: InterSemiBold;
-    color: rgb(46, 39, 148);
+    color: rgb(5, 0, 78);
 }
 
 .about .info .text {
