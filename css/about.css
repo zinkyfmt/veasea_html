@@ -494,7 +494,7 @@ a.footerlink:hover, a.footerlink:focus, a.footerlink.active {
 
 .management-team-tab .image-temp {
     width: 100%;
-    background: rgb(189, 229, 241);
+    background: rgb(5, 0, 78);
 }
 .management-team-tab .image-temp.even {
     width: 100%;
@@ -520,4 +520,7 @@ a.footerlink:hover, a.footerlink:focus, a.footerlink.active {
 }
 .management-team-tab .wrap:hover .text-temp {
     display: none;
+}
+.text-temp.odd {
+    color: #fff;
 }
