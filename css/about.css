@@ -380,3 +380,144 @@ a.footerlink:hover, a.footerlink:focus, a.footerlink.active {
 .partnership-middle .clinic-detail {
     padding-right: 20px;
 }
+.management-team, .block-management-team {
+    display: none;
+}
+/* Style the tab content */
+.tabcontent2 {
+    display: none;
+}
+.tab-management {
+    margin-top: 20px;
+    text-align: center;
+    padding-right: 0px;
+}
+.tab-management ul {
+    list-style: none;
+    display: inline-flex;
+}
+.tab-management ul li {
+    display: flex;
+    padding-left: 30px;
+}
+.tab-management ul li a {
+    color: #777;
+}
+.tab-management ul li a .text {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: InterRegular;
+}
+.tab-management ul li a .text .line {
+    height: 2px;
+    margin-top: 2px;
+    margin-left: -4px;
+    margin-right: -4px;
+    background-color: rgb(85, 124, 194);
+    opacity: 0;
+}
+.tab-management ul li a:hover {
+    text-decoration: none;
+}
+.tab-management ul li a:hover .text {
+    color: rgb(85, 124, 194) !important;
+}
+.tab-management ul li a:hover .text .line {
+    opacity: 1;
+}
+.tab li.active {
+    color: rgb(85, 124, 194);
+}
+.tab ul li.active a .text {
+    color: rgb(85, 124, 194) !important;
+}
+.tab ul li.active a .text .line{
+    opacity: 1;
+}
+.fadeIn {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+}
+.animated {
+    -webkit-animation-duration: 1.2s;
+    animation-duration: 1.2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+.management-team-tab div {
+    margin: 0;
+    padding: 0;
+}
+.management-team-tab img {
+    width: 100%;
+    visibility: hidden;
+}
+.management-team-tab .wrap {
+    position: relative;
+}
+.management-team-tab figcaption {
+    top: 0;
+    position: absolute;
+    display: none;
+    background: #fff;
+    opacity: 0.9;
+    height: 100%;
+    overflow: hidden;
+    overflow-y: auto;
+    text-align: left;
+    padding: 15px 30px;
+}
+.management-team-tab .wrap:hover {
+}
+.management-team-tab .wrap:hover figcaption {
+    display: block;
+}
+#management_team .text, #medical_advisors .text {
+    text-align: left;
+    margin: 15px 0;
+}
+.tab-management {
+    font-family: InterRegular;
+}
+.management-team-tab .wrap figcaption h3 {
+    font-family: InterSemiBold;
+}
+.management-team-tab .wrap figcaption h4 {
+    font-size: 16px;
+    line-height: 1.4;
+}
+.management-team-tab .wrap figcaption p {
+    font-size: 12px;
+    line-height: 1.5;
+    cursor: default;
+}
+
+.management-team-tab .image-temp {
+    width: 100%;
+    background: rgb(189, 229, 241);
+}
+.management-team-tab .image-temp.even {
+    width: 100%;
+    background: #f3f3f366;
+}
+.text-temp {
+    top: 0;
+    position: absolute;
+    height: 100%;
+    text-align: left;
+    padding: 15px 30px !important;
+}
+.text-temp {
+    text-align: left;
+}
+.text-temp h4 {
+    font-family: InterRegular;
+    font-size: 16px;
+    line-height: 1.4;
+}
+.text-temp h3 {
+    font-family: InterSemiBold;
+}
+.management-team-tab .wrap:hover .text-temp {
+    display: none;
+}
