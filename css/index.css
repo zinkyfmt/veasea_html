@@ -220,7 +220,7 @@
 }
 @media screen and (min-width: 768px) {
     .carousel-caption {
-        right: 17%;
-        left: 17%;
+        right: 15%;
+        left: 15%;
     }
 }
