@@ -524,3 +524,6 @@ a.footerlink:hover, a.footerlink:focus, a.footerlink.active {
 .text-temp.odd {
     color: #fff;
 }
+.expand-content.home-content ul {
+    list-style: none;
+}
