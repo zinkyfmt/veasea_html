@@ -234,6 +234,7 @@ img.clinic_timeline {
     font-family: InterSemiBold;
     font-size: 30px;
     margin-top: 10px;
+    color: rgb(5, 0, 78);
 }
 .about .product-text ul {
     padding-left: 0;
@@ -525,7 +526,7 @@ a.footerlink:hover, a.footerlink:focus, a.footerlink.active {
     color: #fff;
 }
 .expand-content.home-content ul {
-    list-style: none;
+    /*list-style: none;*/
 }
 .navbar {
     /*top: 0px;*/
@@ -535,6 +536,9 @@ a.footerlink:hover, a.footerlink:focus, a.footerlink.active {
 }
 .management-team-tab {
     padding-left: 50px;
+}
+.expand-content.home-content ul li {
+    overflow-wrap: break-word;
 }
 @media only screen and (max-width: 767px) {
     .lf {
@@ -566,4 +570,94 @@ a.footerlink:hover, a.footerlink:focus, a.footerlink.active {
     .clinic-detail p {
         padding-right: 20px;
     }
+    .rt.image, .lf.image {
+        padding: 0;
+    }
+    .about .info .text {
+        text-align: left;
+        margin-right: 5px;
+        margin-top: 15px;
+
+    }
+    .reset-padding {
+        padding: 0;
+    }
+    .wrap-sp {
+        padding-right: 20px !important;
+        padding-left: 20px !important;
+    }
+    .clinic-detail-column.lf {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .expand-content.home-content ul li {
+        padding-right: 20px;
+    }
+    .lf.lf-practicesolution {
+        margin-top: 0;
+    }
+    .about .lf.lf-practicesolution .text {
+        margin-right: 5px;
+        margin-bottom: 20px;
+    }
+    .rt {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .rt-diagnostics {
+        margin-top: 10px;
+    }
+    .about .info .text.home-content.diagnostics {
+        margin-right: 0px;
+    }
+    .clinic-row {
+        margin-top: 75px;
+    }
+    .clinic-expand-detail.home-content ul li {
+        padding-right: 20px;
+    }
+    .about .info .title h1 {
+        font-size: 26px;
+    }
+    .about .info .text {
+        font-size: 14px;
+    }
+    .clinic-detail .title h1.clinic-expand, .clinic-detail-column .title h1.clinic-expand {
+        font-size: 16px;
+    }
+    .partnership-middle .clinic-detail {
+        padding-right: 0;
+    }
+    .contact-form .contact-detail {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .contact-form .wrap-container {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .contact-form .sub-title {
+        margin-bottom: 10px;
+        text-align: center
+    }
+    .contact-form .btn {
+        width: 100%;
+    }
+    .about .info .product-image img {
+        margin-top: 20px;
+        max-height: 300px;
+    }
+    .lf.tinctures, .lf.salve_stick, .lf.gel_capsules {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .about .product-text {
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 14px;
+    }
+    .about .product-text h1 {
+        font-size: 26px;
+    }
+
 }
