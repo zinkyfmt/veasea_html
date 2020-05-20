@@ -659,5 +659,8 @@ a.footerlink:hover, a.footerlink:focus, a.footerlink.active {
     .about .product-text h1 {
         font-size: 26px;
     }
-
+    select.form-control {
+        font-size: 10px;
+        overflow-wrap: break-word;
+    }
 }
