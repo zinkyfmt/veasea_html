@@ -273,7 +273,10 @@
     .sub-menu li {
         width: 100%;
     }
-    .sticky {
-
+    .row {
+        margin: 0;
+    }
+    .block-top {
+        margin-top: 75px;
     }
 }

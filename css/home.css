@@ -203,4 +203,14 @@
         font-size: 14px;
         padding-top: 0px;
     }
+    .home-menu {
+        width: 100%;
+    }
+    .home-menu .item-menu .child-item-menu .info .text {
+        font-size: 26px;
+    }
+    .home-menu .item-menu {
+        margin-bottom: 10px;
+        padding: 0;
+    }
 }
