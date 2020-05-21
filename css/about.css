@@ -495,7 +495,7 @@ a.footerlink:hover, a.footerlink:focus, a.footerlink.active {
 
 .management-team-tab .image-temp {
     width: 100%;
-    background: rgb(5, 0, 78);
+    background: rgba(5, 0, 78, 0.7);
 }
 .management-team-tab .image-temp.even {
     width: 100%;
@@ -539,6 +539,13 @@ a.footerlink:hover, a.footerlink:focus, a.footerlink.active {
 }
 .expand-content.home-content ul li {
     overflow-wrap: break-word;
+}
+.logo-new {
+    text-align: center;
+    margin-top: 30px;
+}
+.clinic-detail .small-title h1.clinic-expand, .clinic-detail-column .small-title h1.clinic-expand {
+    font-size: 16px;
 }
 @media only screen and (max-width: 767px) {
     .lf {
@@ -662,5 +669,35 @@ a.footerlink:hover, a.footerlink:focus, a.footerlink.active {
     select.form-control {
         font-size: 10px;
         overflow-wrap: break-word;
+    }
+    .logo-new {
+        margin-top: 15px;
+    }
+    .logo-new img {
+        max-width: 250px;
+    }
+    .about .info .title h1.home-title {
+        font-size: 26px;
+    }
+    .clinic-detail .small-title h1.clinic-expand, .clinic-detail-column .small-title h1.clinic-expand {
+        font-size: 14px;
+    }
+    .clinic-expand-detail.small-title ul li, .clinic-expand-detail.small-title ul li {
+        font-size: 14px;
+    }
+    .expand-content.home-content h2, .expand-content.home-content ul li, .expand-content.home-content ol li {
+        font-size: 14px;
+    }
+    .clinic-expand-detail p, .contact-form .sub-title, .contact-form p, .contact-form .sub-title, .contact-form p a {
+        font-size: 14px;
+    }
+    .text-temp h3 {
+        font-size: 20px;
+    }
+    .text-temp h4 {
+        font-size: 14px;
+    }
+    .management-team-tab .wrap figcaption p {
+        font-size: 11px;
     }
 }
