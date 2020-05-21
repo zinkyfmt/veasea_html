@@ -538,6 +538,7 @@ a.footerlink:hover, a.footerlink:focus, a.footerlink.active {
     padding-left: 50px;
 }
 .expand-content.home-content ul li {
+    margin-bottom: 5px;
     overflow-wrap: break-word;
 }
 .logo-new {
@@ -546,6 +547,9 @@ a.footerlink:hover, a.footerlink:focus, a.footerlink.active {
 }
 .clinic-detail .small-title h1.clinic-expand, .clinic-detail-column .small-title h1.clinic-expand {
     font-size: 16px;
+}
+.about .info .text.home-content p, .clinic-expand-detail p {
+    margin-bottom: 5px;
 }
 @media only screen and (max-width: 767px) {
     .lf {
