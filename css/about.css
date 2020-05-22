@@ -88,7 +88,7 @@
     padding-right: 5px;
 }
 .rt-diagnostics {
-    margin-top: 50px;
+    margin-top: 20px;
 }
 .lf.lf-practicesolution {
     margin-top: 40px;
@@ -460,14 +460,13 @@ a.footerlink:hover, a.footerlink:focus, a.footerlink.active {
     top: 0;
     position: absolute;
     display: none;
-    background: #1e3c8dad;
+    background: #fff;
     opacity: 0.9;
     height: 100%;
     overflow: hidden;
     overflow-y: auto;
     text-align: left;
     padding: 15px 30px;
-    color: #fff;
 }
 .management-team-tab .wrap:hover {
 }
@@ -497,9 +496,9 @@ a.footerlink:hover, a.footerlink:focus, a.footerlink.active {
 .management-team-tab .image-temp {
     width: 100%;
     background: rgba(5, 0, 78, 0.7);
-    background: #f3f3f366;
-    border-right: 1px solid #ccc;
-    border-bottom: 1px solid #ccc;
+    /*background: #f3f3f366;*/
+    /*border-right: 1px solid #ccc;*/
+    /*border-bottom: 1px solid #ccc;*/
 }
 .management-team-tab .image-temp.last-column {
     border-right: none;
@@ -533,7 +532,7 @@ a.footerlink:hover, a.footerlink:focus, a.footerlink.active {
     display: none;
 }
 .text-temp.odd {
-    /*color: #fff;*/
+    color: #fff;
 }
 .expand-content.home-content ul {
     /*list-style: none;*/
