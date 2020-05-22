@@ -460,13 +460,14 @@ a.footerlink:hover, a.footerlink:focus, a.footerlink.active {
     top: 0;
     position: absolute;
     display: none;
-    background: #fff;
+    background: #1e3c8dad;
     opacity: 0.9;
     height: 100%;
     overflow: hidden;
     overflow-y: auto;
     text-align: left;
     padding: 15px 30px;
+    color: #fff;
 }
 .management-team-tab .wrap:hover {
 }
@@ -496,6 +497,15 @@ a.footerlink:hover, a.footerlink:focus, a.footerlink.active {
 .management-team-tab .image-temp {
     width: 100%;
     background: rgba(5, 0, 78, 0.7);
+    background: #f3f3f366;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+.management-team-tab .image-temp.last-column {
+    border-right: none;
+}
+.management-team-tab .image-temp.last-row {
+    border-bottom: none;
 }
 .management-team-tab .image-temp.even {
     width: 100%;
@@ -523,7 +533,7 @@ a.footerlink:hover, a.footerlink:focus, a.footerlink.active {
     display: none;
 }
 .text-temp.odd {
-    color: #fff;
+    /*color: #fff;*/
 }
 .expand-content.home-content ul {
     /*list-style: none;*/
@@ -678,7 +688,7 @@ a.footerlink:hover, a.footerlink:focus, a.footerlink.active {
         margin-top: 15px;
     }
     .logo-new img {
-        max-width: 250px;
+        max-width: 200px;
     }
     .about .info .title h1.home-title {
         font-size: 26px;

@@ -128,7 +128,7 @@
     list-style: none;
 }
 .product-category {
-    padding-left: 100px !important
+    /*padding-left: 100px !important*/
 }
 .product-category .sub-title {
     font-size: 18px;
@@ -142,6 +142,36 @@
 }
 .lf {
     padding-left: 50px;
+}
+.why-versea {
+    margin-bottom: 10px;
+}
+.why-versea .clinic-development {
+    padding: 0;
+    text-align: center;
+}
+.why-versea img {
+    /*width: 100%;*/
+}
+.logo-new {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.product-line p, .product-line .small-title {
+    font-family: InterRegular;
+    font-size: 16px;
+    padding-left: 50px;
+}
+
+.product-line .small-title h1 {
+    font-family: InterSemiBold;
+    color: rgb(5, 0, 78);
+    font-size: 16px;
+}
+.product-line .small-title ul {
+    font-family: InterRegular;
+    font-size: 16px;
 }
 @media only screen and (max-width: 767px) {
     .lf, .product-category, .product-line .product-line-title {
@@ -200,5 +230,24 @@
     }
     #product-category {
         font-size: 14px;
+    }
+    .logo-new img {
+        max-width: 200px;
+    }
+    .why-versea img {
+        width: 100%;
+    }
+    .product-line p, .product-line .small-title {
+        font-size: 14px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .product-line .small-title ul {
+        font-size: 14px;
+    }
+    .product-line .small-title h1 {
+        font-size: 14px;
+        margin-top: 10px;
+        margin-bottom: 5px;
     }
 }
