@@ -561,157 +561,186 @@ a.footerlink:hover, a.footerlink:focus, a.footerlink.active {
 .about .info .text.home-content p, .clinic-expand-detail p {
     margin-bottom: 5px;
 }
+.about .product-text h1 {
+    float: left;
+}
+.header-title {
+    display: inline-block;
+    width: 100%;
+}
+.header-title a {
+    float: right;
+    font-size: 13px;
+    margin-top: 15px;
+    margin-right: 20px;
+    font-family: InterRegular;
+}
+.header-title a i {
+    width: auto;
+    margin: 0;
+}
+.header-title a i:hover {
+    color: rgb(85, 124, 194) !important;
+}
 @media only screen and (max-width: 767px) {
-    .lf {
-        padding-left: 20px;
-    }
-    .about .wrap-container, .product .row .wrap-container {
-        width: 100%;
-    }
-    .clinic-detail {
-        padding-left: 20px;
-    }
-    h1 {
-        margin-top: 10px;
-    }
-    .wrap-pad {
-        padding-left: 20px;
-    }
-    .tab-management ul {
-        display: flex;
-    }
-    .tab-management ul li {
-        padding-left: 0;
-        margin-right: 10px;
-        margin-left: 0;
-    }
-    .management-team-tab {
-        padding-left: 0;
-    }
-    .clinic-detail p {
-        padding-right: 20px;
-    }
-    .rt.image, .lf.image {
-        padding: 0;
-    }
-    .about .info .text {
-        text-align: left;
-        margin-right: 5px;
-        margin-top: 15px;
+.lf {
+padding-left: 20px;
+}
+.about .wrap-container, .product .row .wrap-container {
+width: 100%;
+}
+.clinic-detail {
+padding-left: 20px;
+}
+h1 {
+margin-top: 10px;
+}
+.wrap-pad {
+padding-left: 20px;
+}
+.tab-management ul {
+display: flex;
+}
+.tab-management ul li {
+padding-left: 0;
+margin-right: 10px;
+margin-left: 0;
+}
+.management-team-tab {
+padding-left: 0;
+}
+.clinic-detail p {
+padding-right: 20px;
+}
+.rt.image, .lf.image {
+padding: 0;
+}
+.about .info .text {
+text-align: left;
+margin-right: 5px;
+margin-top: 15px;
 
-    }
-    .reset-padding {
-        padding: 0;
-    }
-    .wrap-sp {
-        padding-right: 20px !important;
-        padding-left: 20px !important;
-    }
-    .clinic-detail-column.lf {
-        padding-left: 0 !important;
-        padding-right: 0 !important;
-    }
-    .expand-content.home-content ul li {
-        padding-right: 20px;
-    }
-    .lf.lf-practicesolution {
-        margin-top: 0;
-    }
-    .about .lf.lf-practicesolution .text {
-        margin-right: 5px;
-        margin-bottom: 20px;
-    }
-    .rt {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-    .rt-diagnostics {
-        margin-top: 10px;
-    }
-    .about .info .text.home-content.diagnostics {
-        margin-right: 0px;
-    }
-    .clinic-row {
-        margin-top: 75px;
-    }
-    .clinic-expand-detail.home-content ul li {
-        padding-right: 20px;
-    }
-    .about .info .title h1 {
-        font-size: 26px;
-    }
-    .about .info .text {
-        font-size: 14px;
-    }
-    .clinic-detail .title h1.clinic-expand, .clinic-detail-column .title h1.clinic-expand {
-        font-size: 16px;
-    }
-    .partnership-middle .clinic-detail {
-        padding-right: 0;
-    }
-    .contact-form .contact-detail {
-        text-align: center;
-        margin-bottom: 15px;
-    }
-    .contact-form .wrap-container {
-        padding-right: 20px;
-        padding-left: 20px;
-    }
-    .contact-form .sub-title {
-        margin-bottom: 10px;
-        text-align: center
-    }
-    .contact-form .btn {
-        width: 100%;
-    }
-    .about .info .product-image img {
-        margin-top: 20px;
-        max-height: 300px;
-    }
-    .lf.tinctures, .lf.salve_stick, .lf.gel_capsules {
-        padding-left: 0;
-        padding-right: 0;
-    }
-    .about .product-text {
-        padding-left: 20px;
-        padding-right: 20px;
-        font-size: 14px;
-    }
-    .about .product-text h1 {
-        font-size: 26px;
-    }
-    select.form-control {
-        font-size: 10px;
-        overflow-wrap: break-word;
-    }
-    .logo-new {
-        margin-top: 15px;
-    }
-    .logo-new img {
-        max-width: 200px;
-    }
-    .about .info .title h1.home-title {
-        font-size: 26px;
-    }
-    .clinic-detail .small-title h1.clinic-expand, .clinic-detail-column .small-title h1.clinic-expand {
-        font-size: 14px;
-    }
-    .clinic-expand-detail.small-title ul li, .clinic-expand-detail.small-title ul li {
-        font-size: 14px;
-    }
-    .expand-content.home-content h2, .expand-content.home-content ul li, .expand-content.home-content ol li {
-        font-size: 14px;
-    }
-    .clinic-expand-detail p, .contact-form .sub-title, .contact-form p, .contact-form .sub-title, .contact-form p a {
-        font-size: 14px;
-    }
-    .text-temp h3 {
-        font-size: 20px;
-    }
-    .text-temp h4 {
-        font-size: 14px;
-    }
-    .management-team-tab .wrap figcaption p {
+}
+.reset-padding {
+padding: 0;
+}
+.wrap-sp {
+padding-right: 20px !important;
+padding-left: 20px !important;
+}
+.clinic-detail-column.lf {
+padding-left: 0 !important;
+padding-right: 0 !important;
+}
+.expand-content.home-content ul li {
+padding-right: 20px;
+}
+.lf.lf-practicesolution {
+margin-top: 0;
+}
+.about .lf.lf-practicesolution .text {
+margin-right: 5px;
+margin-bottom: 20px;
+}
+.rt {
+padding-left: 20px;
+padding-right: 20px;
+}
+.rt-diagnostics {
+margin-top: 10px;
+}
+.about .info .text.home-content.diagnostics {
+margin-right: 0px;
+}
+.clinic-row {
+margin-top: 75px;
+}
+.clinic-expand-detail.home-content ul li {
+padding-right: 20px;
+}
+.about .info .title h1 {
+font-size: 26px;
+}
+.about .info .text {
+font-size: 14px;
+}
+.clinic-detail .title h1.clinic-expand, .clinic-detail-column .title h1.clinic-expand {
+font-size: 16px;
+}
+.partnership-middle .clinic-detail {
+padding-right: 0;
+}
+.contact-form .contact-detail {
+text-align: center;
+margin-bottom: 15px;
+}
+.contact-form .wrap-container {
+padding-right: 20px;
+padding-left: 20px;
+}
+.contact-form .sub-title {
+margin-bottom: 10px;
+text-align: center
+}
+.contact-form .btn {
+width: 100%;
+}
+.about .info .product-image img {
+margin-top: 20px;
+max-height: 300px;
+}
+.lf.tinctures, .lf.salve_stick, .lf.gel_capsules {
+padding-left: 0;
+padding-right: 0;
+}
+.about .product-text {
+padding-left: 20px;
+padding-right: 20px;
+font-size: 14px;
+}
+.about .product-text h1 {
+font-size: 26px;
+}
+select.form-control {
+font-size: 10px;
+overflow-wrap: break-word;
+}
+.logo-new {
+margin-top: 15px;
+}
+.logo-new img {
+max-width: 200px;
+}
+.about .info .title h1.home-title {
+font-size: 26px;
+}
+.clinic-detail .small-title h1.clinic-expand, .clinic-detail-column .small-title h1.clinic-expand {
+font-size: 14px;
+}
+.clinic-expand-detail.small-title ul li, .clinic-expand-detail.small-title ul li {
+font-size: 14px;
+}
+.expand-content.home-content h2, .expand-content.home-content ul li, .expand-content.home-content ol li {
+font-size: 14px;
+}
+.clinic-expand-detail p, .contact-form .sub-title, .contact-form p, .contact-form .sub-title, .contact-form p a {
+font-size: 14px;
+}
+.text-temp h3 {
+font-size: 20px;
+}
+.text-temp h4 {
+font-size: 14px;
+}
+.management-team-tab .wrap figcaption p {
+font-size: 11px;
+}
+    .header-title a {
         font-size: 11px;
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+    .header-title a i {
+        width: 25px;
     }
 }
