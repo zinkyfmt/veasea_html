@@ -103,7 +103,7 @@
                 </a>
               </li>
               <li>
-                <a href="/about#management_team">
+                <a href="javascript:void(0);" onclick="managementTeam();">
                   <div class="menu-icon">
                     <img src="./image/mini_logo.png">
                   </div>
@@ -114,7 +114,7 @@
                 </a>
               </li>
               <li>
-                <a href="/about#medical_advisors">
+                <a href="javascript:void(0);" onclick="medicalAdvisors();">
                   <div class="menu-icon">
                     <img src="./image/mini_logo.png">
                   </div>
@@ -194,9 +194,8 @@
           <h1>About <span class="span-name">VERSÉA</span></h1>
         </div>
         <div class="col-12 text">
-          Verséa Holdings is a US-based company with pharmaceutical, diagnostic,
-          practice solutions and medical hemp divisions. Each division is focused
-          on bringing innovative products and services that address unmet needs to the global medical marketplace.
+          Verséa Holdings is a US-based company focused on education, pharmaceuticals, diagnostics, practice solutions and medical hemp.
+          Each division is focused on bringing innovative products and services that are only available through healthcare professionals for their patients.
         </div>
       </div>
     </div>
@@ -232,19 +231,19 @@
       </div>
     </div>
 
-    <div class="row mr-0 ml-0 clinic-detail-column wrap-container tab-management">
+    <div class="row mr-0 ml-0 clinic-detail-column wrap-container tab-management" id="tab-management">
       <div class="tab">
         <ul>
-          <li class="tablinks2 active" onclick="openTab2(event, 'management_team')">
-            <a href="/about#management_team">
+          <li class="tablinks2 active" id="tab-management_team" onclick="openTab2(event, 'management_team')">
+            <a href="javascript:void(0);" onclick="managementTeam()">
               <div class="text">
                 MANAGEMENT TEAM
                 <div class="line">&nbsp;</div>
               </div>
             </a>
           </li>
-          <li class="tablinks2 first_item" id="tab-active" onclick="openTab2(event, 'medical_advisors')">
-            <a href="/about#medical_advisors">
+          <li class="tablinks2 first_item" id="tab-active_advisors" onclick="openTab2(event, 'medical_advisors')">
+            <a href="javascript:void(0);" onclick="medicalAdvisors()">
               <div class="text">
                 MEDICAL ADVISORS
                 <div class="line">&nbsp;</div>
@@ -1100,15 +1099,39 @@
 </div>
 <script type="text/javascript" src="js/index.js"></script>
 <script>
+
   $( document ).ready(function() {
     // $(".tab-management ul li.first_item").addClass('active');
-    if (window.location.href.indexOf("#medical_advisors") > -1) {
-      $(".tab-management ul li").removeClass("active");
-      $("#tab-active").addClass('active');
-      $("#management_team").css('display','none');
-      $("#medical_advisors").css('display','block');
+    if (window.location.href.indexOf("#managementTeam") > -1) {
+      managementTeam();
+    }
+
+    if (window.location.href.indexOf("#medicalAdvisors") > -1) {
+      medicalAdvisors();
     }
   });
+  function managementTeam() {
+    console.log('managementTeam');
+    $(".tab-management ul li").removeClass("active");
+    $("#tab-active_advisors").removeClass('active');
+    $("#tab-management_team").addClass('active');
+    $("#management_team").css('display','block');
+    $("#medical_advisors").css('display','none');
+    $([document.documentElement, document.body]).animate({
+      scrollTop: $("#tab-management").offset().top - 80
+    }, 1000);
+  }
+  function medicalAdvisors() {
+    console.log('medicalAdvisors');
+    $(".tab-management ul li").removeClass("active");
+    $("#tab-active_advisors").addClass('active');
+    $("#tab-management_team").removeClass('active');
+    $("#management_team").css('display','none');
+    $("#medical_advisors").css('display','block');
+    $([document.documentElement, document.body]).animate({
+      scrollTop: $("#tab-management").offset().top - 80
+    }, 1000);
+  }
   function openTab(evt, name) {
     var i, tabcontent, tablinks;
     tabcontent = document.getElementsByClassName("tabcontent");

@@ -417,11 +417,20 @@ a.footerlink:hover, a.footerlink:focus, a.footerlink.active {
     background-color: rgb(85, 124, 194);
     opacity: 0;
 }
-.tab-management ul li a:hover {
+.tab-management ul li a:hover, .tab-management ul li a:active, .tab-management ul li a:focus {
     text-decoration: none;
 }
 .tab-management ul li a:hover .text {
     color: rgb(85, 124, 194) !important;
+    text-decoration: none;
+}
+.tab-management ul li a:active .text {
+     color: rgb(85, 124, 194) !important;
+     text-decoration: none;
+}
+.tab-management ul li a:focus .text {
+    color: rgb(85, 124, 194) !important;
+    text-decoration: none;
 }
 .tab-management ul li a:hover .text .line {
     opacity: 1;
