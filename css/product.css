@@ -145,6 +145,7 @@
 }
 .why-versea {
     margin-bottom: 10px;
+    display: none;
 }
 .why-versea .clinic-development {
     padding: 0;
