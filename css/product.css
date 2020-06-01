@@ -174,6 +174,9 @@
     font-family: InterRegular;
     font-size: 16px;
 }
+.product-line .small-title p {
+    padding-left: 0;
+}
 @media only screen and (max-width: 767px) {
     .lf, .product-category, .product-line .product-line-title {
         padding-left: 20px;
