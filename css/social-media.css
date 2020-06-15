@@ -95,3 +95,11 @@
     background: #ff6600; 
     color: white; 
 }
+.icon-contact:hover {
+    color: #000;
+}
+.icon-contact {
+    padding: 0;
+    margin: 0;
+    width: auto;
+}
