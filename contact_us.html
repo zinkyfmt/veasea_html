@@ -319,13 +319,14 @@
       //     $("#contact_div").html("<span style='color:green;font-size:20px;'>Contact info and message sent!</span>");
       //   }
       // });
-      $.get("https://verseashop.com/ajax_contact.php", {
+      $.get("https://versea.com/submit.php", {
         from: from,
         name: name,
         email: email,
         phone: phone,
         message: message,
       }).done(function (data) {
+          console.log(data);
         $("#contact_div").html("<span style='color:green;font-size:20px;'>Contact info and message sent!</span>");
       });
     }
