@@ -21,7 +21,7 @@ $uriSegments = explode("/", parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH));
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
                 <li>
-                    <a href="/about.php" class="<?=in_array($uriSegments[1],['about','overview','pharmaceuticals','education']) ? 'active' : '' ?>">
+                    <a href="/about.html" class="<?=in_array($uriSegments[1],['about','overview','pharmaceuticals','education']) ? 'active' : '' ?>">
                         <div class="menu-icon">
                             <img src="./image/mini_logo.png">
                         </div>
@@ -32,7 +32,7 @@ $uriSegments = explode("/", parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH));
                     </a>
                     <ul class="sub-menu">
                         <li>
-                            <a href="/overview.php">
+                            <a href="/overview.html">
                                 <div class="menu-icon">
                                     <img src="./image/mini_logo.png">
                                 </div>
@@ -43,7 +43,7 @@ $uriSegments = explode("/", parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH));
                             </a>
                         </li>
                         <li>
-                            <a href="/pharmaceuticals.php">
+                            <a href="/pharmaceuticals.html">
                                 <div class="menu-icon">
                                     <img src="./image/mini_logo.png">
                                 </div>
@@ -54,7 +54,7 @@ $uriSegments = explode("/", parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH));
                             </a>
                         </li>
                         <li>
-                            <a href="/education.php">
+                            <a href="/education.html">
                                 <div class="menu-icon">
                                     <img src="./image/mini_logo.png">
                                 </div>
@@ -65,7 +65,7 @@ $uriSegments = explode("/", parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH));
                             </a>
                         </li>
                         <li style="display: none;">
-                            <a href="/practicesolution.php" class="active">
+                            <a href="/practicesolution.html" class="active">
                                 <div class="menu-icon">
                                     <img src="./image/mini_logo.png">
                                 </div>
@@ -76,7 +76,7 @@ $uriSegments = explode("/", parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH));
                             </a>
                         </li>
                         <li style="display: none;">
-                            <a href="/diagnostics.php">
+                            <a href="/diagnostics.html">
                                 <div class="menu-icon">
                                     <img src="./image/mini_logo.png">
                                 </div>
@@ -87,7 +87,7 @@ $uriSegments = explode("/", parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH));
                             </a>
                         </li>
                         <li>
-                            <a href="/about#managementTeam">
+                            <a href="/about.html#managementTeam">
                                 <div class="menu-icon">
                                     <img src="./image/mini_logo.png">
                                 </div>
@@ -98,7 +98,7 @@ $uriSegments = explode("/", parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH));
                             </a>
                         </li>
                         <li>
-                            <a href="/about#medicalAdvisors">
+                            <a href="/about.html#medicalAdvisors">
                                 <div class="menu-icon">
                                     <img src="./image/mini_logo.png">
                                 </div>
@@ -111,7 +111,7 @@ $uriSegments = explode("/", parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH));
                     </ul>
                 </li>
                 <li>
-                    <a href="/clinic_development.php" class="<?=$uriSegments[1] == 'clinic_development' ? 'active' : '' ?>">
+                    <a href="/clinic_development.html" class="<?=$uriSegments[1] == 'clinic_development' ? 'active' : '' ?>">
                         <div class="menu-icon">
                             <img src="./image/mini_logo.png">
                         </div>
@@ -122,7 +122,7 @@ $uriSegments = explode("/", parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH));
                     </a>
                 </li>
                 <li>
-                    <a href="/product.php" class="<?=$uriSegments[1] == 'product' ? 'active' : '' ?>">
+                    <a href="/product.html" class="<?=$uriSegments[1] == 'product' ? 'active' : '' ?>">
                         <div class="menu-icon">
                             <img src="./image/mini_logo.png">
                         </div>
@@ -144,7 +144,7 @@ $uriSegments = explode("/", parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH));
                     </a>
                 </li>
                 <li>
-                    <a href="/contact_us.php" class="<?=$uriSegments[1] == 'contact_us' ? 'active' : '' ?>">
+                    <a href="/contact_us.html" class="<?=$uriSegments[1] == 'contact_us' ? 'active' : '' ?>">
                         <div class="menu-icon">
                             <img src="./image/mini_logo.png">
                         </div>

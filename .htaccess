@@ -1,6 +1,17 @@
+
+<IfModule mod_rewrite.c>
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^(([^/]+/)*[^.]+)$ /$1.php [L]
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteCond %{THE_REQUEST} (.*)\.php
+RewriteRule ^(.*)\.php $1.html [R=301,L]
+
+RewriteCond %{THE_REQUEST} (.*)\.html
+RewriteRule ^(.*)\.html $1.php [L]
+
+</IfModule>
+
 
 Redirect /order https://verseashop.com/?pg=profile
 Redirect /orders https://verseashop.com/?pg=profile

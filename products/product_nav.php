@@ -17,7 +17,7 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
                 <li>
-                    <a href="/about.php">
+                    <a href="/about.html">
                         <div class="menu-icon">
                             <img src="../image/mini_logo.png">
                         </div>
@@ -28,7 +28,7 @@
                     </a>
                     <ul class="sub-menu">
                         <li>
-                            <a href="/overview.php">
+                            <a href="/overview.html">
                                 <div class="menu-icon">
                                     <img src="../image/mini_logo.png">
                                 </div>
@@ -39,7 +39,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="/pharmaceuticals.php">
+                            <a href="/pharmaceuticals.html">
                                 <div class="menu-icon">
                                     <img src="../image/mini_logo.png">
                                 </div>
@@ -50,7 +50,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="/education.php">
+                            <a href="/education.html">
                                 <div class="menu-icon">
                                     <img src="../image/mini_logo.png">
                                 </div>
@@ -61,7 +61,7 @@
                             </a>
                         </li>
                         <li style="display: none;">
-                            <a href="/practicesolution.php" class="active">
+                            <a href="/practicesolution.html" class="active">
                                 <div class="menu-icon">
                                     <img src="../image/mini_logo.png">
                                 </div>
@@ -72,7 +72,7 @@
                             </a>
                         </li>
                         <li style="display: none;">
-                            <a href="/diagnostics.php">
+                            <a href="/diagnostics.html">
                                 <div class="menu-icon">
                                     <img src="../image/mini_logo.png">
                                 </div>
@@ -83,7 +83,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="/about#managementTeam">
+                            <a href="/about.html#managementTeam">
                                 <div class="menu-icon">
                                     <img src="../image/mini_logo.png">
                                 </div>
@@ -94,7 +94,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="/about#medicalAdvisors">
+                            <a href="/about.html#medicalAdvisors">
                                 <div class="menu-icon">
                                     <img src="../image/mini_logo.png">
                                 </div>
@@ -107,7 +107,7 @@
                     </ul>
                 </li>
                 <li>
-                    <a href="/clinic_development.php">
+                    <a href="/clinic_development.html">
                         <div class="menu-icon">
                             <img src="../image/mini_logo.png">
                         </div>
@@ -118,7 +118,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="/product.php" class="active">
+                    <a href="/product.html" class="active">
                         <div class="menu-icon">
                             <img src="../image/mini_logo.png">
                         </div>
@@ -129,7 +129,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="/partnership.php">
+                    <a href="/partnership.html">
                         <div class="menu-icon">
                             <img src="../image/mini_logo.png">
                         </div>
@@ -140,7 +140,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="/contact_us.php">
+                    <a href="/contact_us.html">
                         <div class="menu-icon">
                             <img src="../image/mini_logo.png">
                         </div>

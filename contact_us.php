@@ -107,7 +107,7 @@
       //     $("#contact_div").html("<span style='color:green;font-size:20px;'>Contact info and message sent!</span>");
       //   }
       // });
-      $.get("/submit", {
+      $.get("/submit.php", {
         from: from,
         name: name,
         email: email,
