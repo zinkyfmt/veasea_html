@@ -6,7 +6,7 @@
         <div class="home-menu">
             <div class="row">
                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 item-menu">
-                    <a href="pharmaceuticals"><div class="child-item-menu child-1">
+                    <a href="pharmaceuticals.html"><div class="child-item-menu child-1">
                             <div class="info">
                                 <div class="text">Pharmaceuticals</div>
                                 <div class="line">&nbsp;</div>
@@ -15,7 +15,7 @@
                     </a>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 item-menu">
-                    <a href="diagnostics"><div class="child-item-menu child-2">
+                    <a href="diagnostics.html"><div class="child-item-menu child-2">
                             <div class="info">
                                 <div class="text">Diagnostics</div>
                                 <div class="line">&nbsp;</div>
@@ -23,7 +23,7 @@
                         </div></a>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 item-menu">
-                    <a href="practicesolution"><div class="child-item-menu child-3">
+                    <a href="practicesolution.html"><div class="child-item-menu child-3">
                             <div class="info">
                                 <div class="text">Practice Solutions</div>
                                 <div class="line">&nbsp;</div>
@@ -31,7 +31,7 @@
                         </div></a>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 item-menu">
-                    <a href="education"><div class="child-item-menu child-4">
+                    <a href="education.html"><div class="child-item-menu child-4">
                             <div class="info">
                                 <div class="text">Education</div>
                                 <div class="line">&nbsp;</div>

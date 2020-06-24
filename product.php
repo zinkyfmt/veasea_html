@@ -18,10 +18,10 @@
           <div class="col-12 title">
             <h3 class="sub-title"><strong>Product Categories</strong></h3>
             <ul id="product-category">
-              <li><a href="/product">Hemp-derived products</a></li>
-              <li><a href="/diagnostics">Diagnostics</a></li>
-              <li><a href="/pharmaceuticals">Pharmaceuticals</a></li>
-              <li><a href="/practicesolution">Practice Solutions</a></li>
+              <li><a href="/product.html">Hemp-derived products</a></li>
+              <li><a href="/diagnostics.html">Diagnostics</a></li>
+              <li><a href="/pharmaceuticals.html">Pharmaceuticals</a></li>
+              <li><a href="/practicesolution.html">Practice Solutions</a></li>
             </ul>
           </div>
         </div>
@@ -80,7 +80,7 @@
         <div class="row mr-0 ml-0 wrap-container">
           <div class="col-xs-12 item wrap-container">
             <div class="col-xs-12 col-md-3 item-left">
-              <a href="products/tinctures"><img class="item-image" src="./image/Tincture-3300.png" alt="img-item-1"></a>
+              <a href="products/tinctures.html"><img class="item-image" src="./image/Tincture-3300.png" alt="img-item-1"></a>
             </div>
             <div class="col-xs-12 col-md-3 item-right">
               <div class="col-xs-12 item-name">
@@ -102,7 +102,7 @@
                     <div class="text">600 mg/30 mL bottle tincture - 1,200 mg/30 mL bottle tincture - 3,300 mg/30 mL bottle tincture</div>
                   </div>
                 </div>
-                <a href="products/tinctures"><img class="arrow" src="./image/arrow.png"></a>
+                <a href="products/tinctures.html"><img class="arrow" src="./image/arrow.png"></a>
               </div>
             </div>
           </div>
@@ -112,7 +112,7 @@
         <div class="row mr-0 ml-0 wrap-container">
           <div class="col-xs-12 item">
             <div class="col-xs-3 item-left">
-              <a href="products/gel_capsules"><img class="item-image" src="./image/GelCaps-0750.png" alt="img-item-2"></a>
+              <a href="products/gel_capsules.html"><img class="item-image" src="./image/GelCaps-0750.png" alt="img-item-2"></a>
             </div>
             <div class="col-xs-9 item-right">
               <div class="col-xs-12 item-name">
@@ -134,7 +134,7 @@
                     <div class="text">25 mg of CBD per tablet, 30-count bottle</div>
                   </div>
                 </div>
-                <a href="products/gel_capsules"><img class="arrow" src="./image/arrow-white.png"></a>
+                <a href="products/gel_capsules.html"><img class="arrow" src="./image/arrow-white.png"></a>
               </div>
             </div>
           </div>
@@ -144,7 +144,7 @@
         <div class="row mr-0 ml-0 wrap-container">
           <div class="col-xs-12 item">
             <div class="col-xs-3 item-left">
-              <a href="products/salve_stick"><img class="item-image" src="./image/SalveStick-0500.png" alt="img-item-3"></a>
+              <a href="products/salve_stick.html"><img class="item-image" src="./image/SalveStick-0500.png" alt="img-item-3"></a>
             </div>
             <div class="col-xs-9 item-right">
               <div class="col-xs-12 item-name">
@@ -166,7 +166,7 @@
                     <div class="text">500 mg of CBD in a 1-ounce push-up container</div>
                   </div>
                 </div>
-                <a href="products/salve_stick"><img class="arrow" src="./image/arrow.png"></a>
+                <a href="products/salve_stick.html"><img class="arrow" src="./image/arrow.png"></a>
               </div>
             </div>
           </div>
