@@ -14,7 +14,7 @@
                     <div class="product-text-content">
                         <div class="header-title">
                             <h1 class="product-title">Gel Capsules</h1>
-                            <a href="/product" class="back">
+                            <a href="/product.php" class="back">
                                 <i class="fa fa-arrow-left"></i>Back to HCP Products
                             </a>
                         </div>

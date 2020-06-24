@@ -15,7 +15,7 @@
                 <div class="col-12 product-text">
                     <div class="header-title">
                         <h1 class="product-title">Salve Stick</h1>
-                        <a href="/product" class="back">
+                        <a href="/product.php" class="back">
                             <i class="fa fa-arrow-left"></i>Back to HCP Products
                         </a>
                     </div>
