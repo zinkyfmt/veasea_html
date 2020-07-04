@@ -74,7 +74,7 @@
                         success in highly regulated markets. The collective experience of the team spans commercial and clinical operations build-outs, achieving FDA
                         product approvals, successful product launches and lifecycle management.</p>
                 </div>
-                <div class="management-team-tab">
+                <div class="management-team-tab sp">
                     <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 wrap">
                         <figure>
                             <div class="image-temp">
@@ -84,7 +84,7 @@
                                 <h4>Co-Founder, Chief Executive Officer</h4>
                                 <h3>Sean Fetcho</h3>
                             </div>
-                            <figcaption>
+                            <figcaption class="custom">
                                 <h4>Co-Founder, Chief Executive Officer</h4>
                                 <h3>Sean Fetcho</h3>
                                 <div>
@@ -136,7 +136,7 @@
                                 <h4>Co-Founder, Chief Medical Officer</h4>
                                 <h3>Dr. Moeller-Bertram</h3>
                             </div>
-                            <figcaption>
+                            <figcaption class="custom">
                                 <h4>Co-Founder, Chief Medical Officer</h4>
                                 <h3>Dr. Moeller-Bertram</h3>
                                 <div>
@@ -190,7 +190,7 @@
                                 <h4>Chief Financial Officer</h4>
                                 <h3>Joe Magnemi</h3>
                             </div>
-                            <figcaption>
+                            <figcaption class="custom">
                                 <h4>Chief Financial Officer</h4>
                                 <h3>Joe Magnemi</h3>
                                 <div>
@@ -242,7 +242,7 @@
                                 <h4>EVP, Head of Digital Strategy</h4>
                                 <h3>Erik Hawkinson</h3>
                             </div>
-                            <figcaption>
+                            <figcaption class="custom">
                                 <h4>EVP, Head of Digital Strategy</h4>
                                 <h3>Erik Hawkinson</h3>
                                 <div>
@@ -295,7 +295,7 @@
                                 <h4>EVP, Head of Sales</h4>
                                 <h3>Timmi Stump</h3>
                             </div>
-                            <figcaption>
+                            <figcaption class="custom">
                                 <h4>EVP, Head of Sales</h4>
                                 <h3>Timmi Stump</h3>
                                 <div>
@@ -350,7 +350,7 @@
                                 <h4>Regulatory/ <br>FDA Expert for Botanical Markets</h4>
                                 <h3>Jinhui Dou, Ph.D. </h3>
                             </div>
-                            <figcaption>
+                            <figcaption class="custom">
                                 <h4>Regulatory/ <br>FDA Expert for Botanical Markets</h4>
                                 <h3>Jinhui Dou, Ph.D. </h3>
                                 <div>
@@ -382,7 +382,7 @@
                         addiction medicine, neurology, interventional pain, foot & ankle, integrative medicine and other specialties, Verséa leverages the boards
                         knowledge and understanding to guide the clinical and commercial direction of Verséa.</p>
                 </div>
-                <div class="management-team-tab">
+                <div class="management-team-tab sp">
                     <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 wrap">
                         <figure>
                             <div class="image-temp">
@@ -392,7 +392,7 @@
                                 <h4>Verséa Medical Director</h4>
                                 <h3>Miroslav Backonja, M.D.</h3>
                             </div>
-                            <figcaption>
+                            <figcaption class="custom">
                                 <h4>Verséa Medical Director</h4>
                                 <h3>Miroslav Backonja, M.D.</h3>
                                 <div>
@@ -438,7 +438,7 @@
                             <div class="text-temp odd">
                                 <h3>David Kloth, M.D.</h3>
                             </div>
-                            <figcaption>
+                            <figcaption class="custom">
                                 <h3>David Kloth, M.D.</h3>
                                 <div>
                                     <p>Dr. David Kloth specializes in the diagnosis and treatment of complex chronic pain and has been practicing full-time interventional pain management since 1991. He is
@@ -497,7 +497,7 @@
                             <div class="text-temp">
                                 <h3>Jay Joshi, M.D.</h3>
                             </div>
-                            <figcaption>
+                            <figcaption class="custom">
                                 <h3>Jay Joshi, M.D.</h3>
                                 <div>
                                     <p>Dr. Jay Joshi is a nationally recognized board-certified Anesthesiologist and fellowship trained Interventional Spine and Pain Management physician who has distinguished
@@ -542,7 +542,7 @@
                             <div class="text-temp">
                                 <h3>Brian Burrough, M.D.</h3>
                             </div>
-                            <figcaption>
+                            <figcaption class="custom">
                                 <h3>Brian Burrough, M.D.</h3>
                                 <div>
                                     <p>Dr. Burrough is a board-certified anesthesiologist with subspecialty certification in Pain Medicine. Prior to pursuing a career in medicine, he earned a master’s
@@ -584,7 +584,7 @@
                             <div class="text-temp odd">
                                 <h3>Karena Wu, PT, DPT, COMT, CSCS, CKTP, CPI</h3>
                             </div>
-                            <figcaption>
+                            <figcaption class="custom">
                                 <h3>Karena Wu, PT, DPT, COMT, CSCS, CKTP, CPI</h3>
                                 <div>
                                     <p>Dr. Karena Wu is Owner and Clinical Director of ActiveCare Physical Therapy® in NYC and Mumbai. She is a native of Los
@@ -630,7 +630,7 @@
                             <div class="text-temp odd">
                                 <h3>Michael Wax, D.C.</h3>
                             </div>
-                            <figcaption>
+                            <figcaption class="custom">
                                 <h3>Michael Wax, D.C.</h3>
                                 <div>
                                     <p>Dr. Wax received his Doctor of Chiropractic at Life University. He then participated as one of the treating physicians hired by the Visa Corporation treating US track
@@ -676,7 +676,7 @@
                             <div class="text-temp">
                                 <h3>Maneesh Sharma, M.D.</h3>
                             </div>
-                            <figcaption>
+                            <figcaption class="custom">
                                 <h3>Maneesh Sharma, M.D.</h3>
                                 <div>
                                     <p>Dr. Maneesh Sharma is a Board-Certified Pain Management Physician. Dr. Sharma is Owner and Medical Director for Interventional Pain and Spine in
@@ -719,7 +719,7 @@
                             <div class="text-temp">
                                 <h3>Ben Seeman, M.D.</h3>
                             </div>
-                            <figcaption>
+                            <figcaption class="custom">
                                 <h3>Ben Seeman, M.D.</h3>
                                 <div>
                                     <p>After graduating from the University of Georgia in 1997, he attended and earned his Doctor of Osteopathic Medicine (D.O.) from the acclaimed Des Moines
@@ -762,7 +762,7 @@
                             <div class="text-temp odd">
                                 <h3>Mark Wallace, M.D.</h3>
                             </div>
-                            <figcaption>
+                            <figcaption class="custom">
                                 <h3>Mark Wallace, M.D.</h3>
                                 <div>
                                     <p>Dr. Wallace, MD, is a board-certified anesthesiologist who specializes in multi-modal pain management. As a pain management specialist, he evaluates, diagnoses
@@ -803,7 +803,7 @@
                             <div class="text-temp odd">
                                 <h3>Lynn Webster, M.D.</h3>
                             </div>
-                            <figcaption>
+                            <figcaption class="custom">
                                 <h3>Lynn Webster, M.D.</h3>
                                 <div>
                                     <p>Dr. Webster has dedicated more than thirty years to becoming an expert in the field of pain management. He is the vice president of Scientific Affairs of PRA
@@ -841,7 +841,7 @@
                             <div class="text-temp">
                                 <h3>Anand C Thakur, M.D.</h3>
                             </div>
-                            <figcaption>
+                            <figcaption class="custom">
                                 <h3>Anand C Thakur, M.D.</h3>
                                 <div>
                                     <p>Dr. Thakur is an ABA board certified ACGME fellowship trained Interventional pain physician as well as President of the Michigan state society of interventional
