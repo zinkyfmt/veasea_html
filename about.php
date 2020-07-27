@@ -181,7 +181,7 @@
                             </figcaption>
                         </figure>
                     </div>
-                    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 wrap">
+                    <!--<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 wrap">
                         <figure>
                             <div class="image-temp even">
                                 <img src="https://www.squatny.com/v9z6zc8ze/uploads/2020/02/hila.jpg" alt="">
@@ -205,17 +205,17 @@
                                 </div>
                             </figcaption>
                         </figure>
-                    </div>
+                    </div>-->
                     <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 wrap">
                         <figure>
-                            <div class="image-temp">
+                            <div class="image-temp even">
                                 <img src="https://www.squatny.com/v9z6zc8ze/uploads/2020/02/zach4.jpg" alt="">
                             </div>
-                            <div class="text-temp odd">
+                            <div class="text-temp ">
                                 <h4>Business Development & Strategy</h4>
                                 <h3>Gary Lewandowski</h3>
                             </div>
-                            <figcaption>
+                            <figcaption class="custom">
                                 <h4>Business Development & Strategy</h4>
                                 <h3>Gary Lewandowski</h3>
                                 <div>
@@ -235,14 +235,14 @@
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 wrap">
                         <figure>
-                            <div class="image-temp even">
+                            <div class="image-temp ">
                                 <img src="https://www.squatny.com/v9z6zc8ze/uploads/2015/05/Shiri.jpg" alt="">
                             </div>
-                            <div class="text-temp">
+                            <div class="text-temp odd">
                                 <h4>EVP, Head of Digital Strategy</h4>
                                 <h3>Erik Hawkinson</h3>
                             </div>
-                            <figcaption class="custom">
+                            <figcaption >
                                 <h4>EVP, Head of Digital Strategy</h4>
                                 <h3>Erik Hawkinson</h3>
                                 <div>
@@ -263,14 +263,14 @@
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 wrap">
                         <figure>
-                            <div class="image-temp">
+                            <div class="image-temp even">
                                 <img src="https://www.squatny.com/v9z6zc8ze/uploads/2015/05/Shiri.jpg" alt="">
                             </div>
-                            <div class="text-temp odd">
+                            <div class="text-temp ">
                                 <h4>EVP, Product Director</h4>
                                 <h3>Tony Dicks</h3>
                             </div>
-                            <figcaption>
+                            <figcaption class="custom">
                                 <h4>EVP, Product Director</h4>
                                 <h3>Tony Dicks</h3>
                                 <div>
@@ -295,7 +295,7 @@
                                 <h4>EVP, Head of Sales</h4>
                                 <h3>Timmi Stump</h3>
                             </div>
-                            <figcaption class="custom">
+                            <figcaption >
                                 <h4>EVP, Head of Sales</h4>
                                 <h3>Timmi Stump</h3>
                                 <div>
@@ -317,14 +317,14 @@
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 wrap">
                         <figure>
-                            <div class="image-temp even">
+                            <div class="image-temp ">
                                 <img src="https://www.squatny.com/v9z6zc8ze/uploads/2020/02/hila.jpg" alt="">
                             </div>
-                            <div class="text-temp">
+                            <div class="text-temp odd">
                                 <h4>Head of Clinical Development</h4>
                                 <h3>Monil Shah, PharmD, MBA </h3>
                             </div>
-                            <figcaption>
+                            <figcaption class="custom">
                                 <h4>Head of Clinical Development</h4>
                                 <h3>Monil Shah, PharmD, MBA </h3>
                                 <div>
@@ -343,14 +343,14 @@
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 wrap">
                         <figure>
-                            <div class="image-temp">
+                            <div class="image-temp even">
                                 <img src="https://www.squatny.com/v9z6zc8ze/uploads/2015/05/Shiri.jpg" alt="">
                             </div>
-                            <div class="text-temp odd">
+                            <div class="text-temp ">
                                 <h4>Regulatory/ <br>FDA Expert for Botanical Markets</h4>
                                 <h3>Jinhui Dou, Ph.D. </h3>
                             </div>
-                            <figcaption class="custom">
+                            <figcaption >
                                 <h4>Regulatory/ <br>FDA Expert for Botanical Markets</h4>
                                 <h3>Jinhui Dou, Ph.D. </h3>
                                 <div>

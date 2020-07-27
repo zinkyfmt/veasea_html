@@ -26,51 +26,17 @@
           </div>
         </div>
       </div>
-      <div class="row mr-0 ml-0 wrap-container">
+      <!--<div class="row mr-0 ml-0 wrap-container">
         <div class="col-12 logo-new" style="text-align: center;">
           <img class="pharmaceuticals" src="./image/logo_NEW.png" alt="versea">
         </div>
-      </div>
+      </div>-->
       <div class="row mr-0 ml-0 expand-content wrap-container home-content why-versea">
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 clinic-development">
           <img src="./image/why_versea.png">
         </div>
       </div>
-      <div class="row mr-0 ml-0 wrap-container product-line">
-        <div class="col-12">
-          <h1 class="product-line-title">Why Verséa? Proprietary High Grade Products</h1>
-          <p>The Verséa product line is clinically driven and scientifically differentiated though
-            formulation processes and technology intended to improve functional attributes and
-            performance of the product.</p>
-          <div class="small-title">
-            <h1 class="clinic-expand">Pharmaceutical Approach</h1>
-            <p>While our commercial Farm Bill CBD is not a pharmaceutical product, Verséa is using
-              pharmaceutical manufacturing and quality standards in the manufacture and control of
-              our commercially available products. These standard include:</p>
-            <ul>
-              <li>Quality control systems</li>
-              <li>Validated manufacturing processes and controls</li>
-              <li>Conform to FDA/USDA &amp; cGMP regulatory standards</li>
-            </ul>
-          </div>
-          <div class="small-title">
-            <h1 class="clinic-expand">Proprietary Mechanisms of Action</h1>
-            <ul>
-              <li>Unique &amp; trade-secreted strains</li>
-              <li>Defined action in targeted organ systems</li>
-            </ul>
-          </div>
-          <div class="small-title">
-            <h1 class="clinic-expand">Differentiated Formulations</h1>
-            <ul>
-              <li>Patented and trade-secreted technologies</li>
-              <li>Utilize Hydrophilic formulation designed to promote bioavailability and absorption</li>
-              <li>Unique attributes</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="row mr-0 ml-0 wrap-container product-line">
+	        <div class="row mr-0 ml-0 wrap-container product-line">
         <div class="col-12">
           <h1 class="product-line-title">Hemp-Derived Product Line </h1>
         </div>
@@ -169,6 +135,40 @@
                 <a href="products/salve_stick.html"><img class="arrow" src="./image/arrow.png"></a>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mr-0 ml-0 wrap-container product-line">
+        <div class="col-12">
+          <h1 class="product-line-title">Why Verséa? Proprietary High Grade Products</h1>
+          <p>The Verséa product line is clinically driven and scientifically differentiated though
+            formulation processes and technology intended to improve functional attributes and
+            performance of the product.</p>
+          <div class="small-title">
+            <h1 class="clinic-expand">Pharmaceutical Approach</h1>
+            <p>While our commercial Farm Bill CBD is not a pharmaceutical product, Verséa is using
+              pharmaceutical manufacturing and quality standards in the manufacture and control of
+              our commercially available products. These standard include:</p>
+            <ul>
+              <li>Quality control systems</li>
+              <li>Validated manufacturing processes and controls</li>
+              <li>Conform to FDA/USDA &amp; cGMP regulatory standards</li>
+            </ul>
+          </div>
+          <div class="small-title">
+            <h1 class="clinic-expand">Proprietary Mechanisms of Action</h1>
+            <ul>
+              <li>Unique &amp; trade-secreted strains</li>
+              <li>Defined action in targeted organ systems</li>
+            </ul>
+          </div>
+          <div class="small-title">
+            <h1 class="clinic-expand">Differentiated Formulations</h1>
+            <ul>
+              <li>Patented and trade-secreted technologies</li>
+              <li>Utilize Hydrophilic formulation designed to promote bioavailability and absorption</li>
+              <li>Unique attributes</li>
+            </ul>
           </div>
         </div>
       </div>

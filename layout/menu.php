@@ -164,6 +164,20 @@ $uriSegments = explode("/", parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH));
                             <div class="line">&nbsp;</div>
                         </div>
                     </a>
+				    <ul class="sub-menu">
+                        <li>
+                            <a href="mailto:Info@versea.com">
+                                <div class="menu-icon">
+                                    <img src="./image/mini_logo.png">
+                                </div>
+                                <div class="text">
+                                    Covid-19 Rapid Response Test
+                                    <div class="line">&nbsp;</div>
+                                </div>
+                            </a>
+                        </li>
+					</ul>	
+						
                 </li>
             </ul>
         </div>
