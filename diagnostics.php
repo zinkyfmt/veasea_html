@@ -50,8 +50,8 @@
               <div class="col-12 title">
                   <h1 class="clinic-expand"></h1>
               </div>
-              <div class="col-12 text home-content clinic-expand-detail">
-                  <p><strong>Verséa Diagnostics, LLC forms Partnership with Virality Diagnostics, LLC</strong> Verséa Diagnostics, LLC and Virality Diagnostics,
+              <div class="col-12 text home-content clinic-expand-detail title">
+                  <p><span class="clinic-expand-heading-h1">Verséa Diagnostics, LLC forms Partnership with Virality Diagnostics, LLC</span> Verséa Diagnostics, LLC and Virality Diagnostics,
                       LLC have formed a partnership around COVID-19 Rapid Response Testing. In June of 2020 Virality Diagnostics secured an FDA Emergency Use Authorization (EUA)
                       for its BioHit COVID-19 Serology Testing Kit that can identify IgM (acute stage) and IgG (recovery stage) antibodies to help determine previous exposure to SARS-CoV-2,
                       the virus responsible for COVID-19.</p>

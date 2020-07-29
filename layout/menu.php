@@ -176,6 +176,17 @@ $uriSegments = explode("/", parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH));
                                 </div>
                             </a>
                         </li>
+                        <li>
+                            <a href="https://verseashop.com/?pg=profile" target="_blank">
+                                <div class="menu-icon">
+                                    <img src="./image/mini_logo.png">
+                                </div>
+                                <div class="text">
+                                    Hemp-derived products
+                                    <div class="line">&nbsp;</div>
+                                </div>
+                            </a>
+                        </li>
 					</ul>	
 						
                 </li>

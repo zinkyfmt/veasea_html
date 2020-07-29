@@ -140,7 +140,7 @@
     padding-left: 50px;
     padding-right: 50px;
 }
-.clinic-detail .title h1.clinic-expand , .clinic-detail-column .title h1.clinic-expand {
+.clinic-detail .title h1.clinic-expand , .clinic-detail-column .title h1.clinic-expand, .clinic-expand-heading-h1 {
     font-family: InterBold;
     letter-spacing: 0.0em;
     font-size: 18px;
@@ -674,7 +674,7 @@ a.footerlink:hover, a.footerlink:focus, a.footerlink.active {
     .about .info .text {
     font-size: 14px;
     }
-    .clinic-detail .title h1.clinic-expand, .clinic-detail-column .title h1.clinic-expand {
+    .clinic-detail .title h1.clinic-expand, .clinic-detail-column .title h1.clinic-expand, .clinic-expand-heading-h1 {
     font-size: 16px;
     }
     .partnership-middle .clinic-detail {
