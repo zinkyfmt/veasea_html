@@ -26,7 +26,7 @@
           <img class="pharmaceuticals" src="./image/pharmaceuticals3.png" alt="pharmaceuticals"/>
         </div>
       </div>
-      <div class="row mr-0 ml-0 expand-content home-content">
+      <div class="row mr-0 ml-0 expand-content home-content" style="display: none;">
         <div class="col-12 logo-new" style="text-align: center; margin-top: 30px;">
           <img class="pharmaceuticals" src="./image/logo_NEW.png" alt="versea"/>
         </div>
@@ -42,7 +42,7 @@
             the understanding of the application of cannabinoids and other components of the hemp plant in medicine.
             Areas of research and study mirror our ethical pharmaceutical division to identify new chemical and botanical
             entities from hemp to develop as treatments in various therapeutic areas including those of high unmet medical need.
-              To learn about the Verséa HCP line of non-Rx products, <a href="https://verseastore.com" target="_blank">click here</a>
+              To learn about the Verséa HCP line of non-Rx products, <a href="mailto:Info@versea.com">click here</a>
           </div>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 clinic-detail lf info">

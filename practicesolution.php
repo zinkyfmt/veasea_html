@@ -33,19 +33,19 @@
                         Verséa provides personalized customer service. You deal with one Company (Verséa) and have direct access to the latest testing. </p>
                 </div>
                 <div class="col-12 title">
-                    <h1 class="clinic-expand">Versea Patient Registry</h1>
+                    <h1 class="clinic-expand">Office-Based Dispensing</h1>
                 </div>
                 <div class="col-12 text home-content clinic-expand-detail">
-                    <p>Hospitals, practices and clinics are partnering with Verséa on the recruitment of
-                        patients into the nationwide Outcomes Research Registry. The registry is an IRB
-                        approved and HIPAA compliant collecting data to provide much needed answers
-                        around how patients are using Verséa products. Aggregate data will be made available
-                        for analysis, medical publication and release into the public domain. To learn more
-                        about how to participate as a clinical site in the Verséa Patient Registry, <a href="mailto:INFO@versea.com">click here</a></p>
+                    <p>Verséa has partnered with a professional healthcare management & consulting company that specializes in the implementation of
+                        all-inclusive pharmaceutical-dispensing solutions. Core competencies center on quality service and expertise in billing and collections.
+                        Our partner acts as a liaison between Workers Compensation carriers, adjusters, case managers, employers, PBMs, and healthcare providers.
+                        From introducing practices to reputable pharmaceutical suppliers, to furnishing the equipment necessary to streamline in-office medication
+                        dispensing, decades of knowledge are being applied to meet the unique needs of each individual practice.
+                        To learn how to bring office-based dispensing to your practice, <a href="mailto:INFO@versea.com">click here</a></p>
                 </div>
             </div>
         </div>
-        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 rt image pr-3 pl-0" style="margin-top: 0px; padding-right: 0px;">
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 rt image pr-3 pl-0" style="margin-top: 40px; padding-right: 0px;">
             <img class="partnership" src="./image/partnership.png" alt="partnership"/>
         </div>
     </div>

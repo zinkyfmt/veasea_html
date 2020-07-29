@@ -21,7 +21,7 @@ $uriSegments = explode("/", parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH));
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
                 <li>
-                    <a href="/about.html" class="<?=in_array($uriSegments[1],['about','overview','pharmaceuticals','education']) ? 'active' : '' ?>">
+                    <a href="/about.html" class="<?=in_array($uriSegments[1],['about.html','overview.html','pharmaceuticals.html','education.html']) ? 'active' : '' ?>">
                         <div class="menu-icon">
                             <img src="./image/mini_logo.png">
                         </div>
@@ -111,7 +111,7 @@ $uriSegments = explode("/", parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH));
                     </ul>
                 </li>
                 <li>
-                    <a href="/clinic_development.html" class="<?=$uriSegments[1] == 'clinic_development' ? 'active' : '' ?>">
+                    <a href="/clinic_development.html" class="<?=$uriSegments[1] == 'clinic_development.html' ? 'active' : '' ?>">
                         <div class="menu-icon">
                             <img src="./image/mini_logo.png">
                         </div>
@@ -122,7 +122,7 @@ $uriSegments = explode("/", parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH));
                     </a>
                 </li>
                 <li>
-                    <a href="/product.html" class="<?=$uriSegments[1] == 'product' ? 'active' : '' ?>">
+                    <a href="/product.html" class="<?=$uriSegments[1] == 'product.html' || $uriSegments[1] == 'products' ? 'active' : '' ?>">
                         <div class="menu-icon">
                             <img src="./image/mini_logo.png">
                         </div>
@@ -133,7 +133,7 @@ $uriSegments = explode("/", parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH));
                     </a>
                 </li>
                 <li>
-                    <a href="/partnership.php" class="<?=$uriSegments[1] == 'partnership' ? 'active' : '' ?>">
+                    <a href="/partnership.html" class="<?=$uriSegments[1] == 'partnership.html' ? 'active' : '' ?>">
                         <div class="menu-icon">
                             <img src="./image/mini_logo.png">
                         </div>
@@ -144,7 +144,7 @@ $uriSegments = explode("/", parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH));
                     </a>
                 </li>
                 <li>
-                    <a href="/contact_us.html" class="<?=$uriSegments[1] == 'contact_us' ? 'active' : '' ?>">
+                    <a href="/contact_us.html" class="<?=$uriSegments[1] == 'contact_us.html' ? 'active' : '' ?>">
                         <div class="menu-icon">
                             <img src="./image/mini_logo.png">
                         </div>
@@ -166,7 +166,7 @@ $uriSegments = explode("/", parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH));
                     </a>
 				    <ul class="sub-menu">
                         <li>
-                            <a href="mailto:Info@versea.com">
+                            <a href="./diagnostics.html#biohit">
                                 <div class="menu-icon">
                                     <img src="./image/mini_logo.png">
                                 </div>

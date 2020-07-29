@@ -48,7 +48,18 @@
         </div>
       </div>
       <div class="row mr-0 ml-0 expand-content home-content wrap-container">
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 clinic-detail">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 clinic-detail">
+              <div class="col-12 title">
+                  <h1 class="clinic-expand">Versea Patient Registry</h1>
+              </div>
+              <div class="col-12 text home-content clinic-expand-detail">
+                  <p>Hospitals, practices and clinics are partnering with Verséa on the recruitment of patients into the nationwide Outcomes Research Registry.
+                      The registry is an IRB approved and HIPAA compliant collecting data to provide much needed answers around how patients are using Verséa products.
+                      Aggregate data will be made available for analysis, medical publication and release into the public domain.
+                      To learn more about how to participate as a clinical site in the Verséa Patient Registry, <a href="mailto:Info@versea.com">click here</a></p>
+              </div>
+          </div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 clinic-detail" style="display: none;">
           <div class="col-12 title">
             <h1 class="clinic-expand">Office-Based Dispensing</h1>
           </div>

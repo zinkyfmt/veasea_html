@@ -6,6 +6,7 @@
         <li data-target="#myCarousel" data-slide-to="1"></li>
         <li data-target="#myCarousel" data-slide-to="2"></li>
         <li data-target="#myCarousel" data-slide-to="3"></li>
+        <li data-target="#myCarousel" data-slide-to="4"></li>
     </ol>
 
     <!-- Wrapper for slides -->
@@ -42,6 +43,15 @@
             <div class="carousel-caption d-none d-md-block">
                 <h1>HUMAN TECHNOLOGY</h1>
                 <h5>Verséa understands our mission is to improve lives.</h5>
+            </div>
+        </div>
+        <div class="item">
+            <img class="image-pc" src="./image/slider5.jpg" alt="Slider 5" style="width: 100%;">
+            <img class="image-sp" src="./image/slider5_sp.jpg" alt="Slider 1" style="width: 100%;">
+            <div class="carousel-caption d-none d-md-block">
+                <h1>COVID-19 UPDATED</h1>
+                <h5>Covid-19 Rapid Response Test NOW available HERE</h5>
+                <p><a class="btn btn-primary" href="./diagnostics.html#biohit">ORDER NOW</a></p>
             </div>
         </div>
     </div>

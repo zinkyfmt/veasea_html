@@ -47,7 +47,7 @@
         setInterval(function() {
             console.log('slider change');
             $('.carousel-control.right').trigger('click');
-        }, 4000);
+        }, 6000);
     </script>
 </body>
 

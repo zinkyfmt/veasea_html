@@ -280,3 +280,9 @@
         margin-top: 75px;
     }
 }
+.btn-blue {
+    background: rgb(85, 124, 194);
+}
+a.btn {
+    font-family: InterSemiBold;
+}

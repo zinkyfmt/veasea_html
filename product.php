@@ -170,6 +170,9 @@
               <li>Unique attributes</li>
             </ul>
           </div>
+            <div class="small-title">
+                <a href="./diagnostics.html#biohit"><h1 class="clinic-expand">Covid-19 Rapid Response Test NOW available HERE</h1></a>
+            </div>
         </div>
       </div>
     </div>
