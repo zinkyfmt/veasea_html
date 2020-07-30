@@ -56,7 +56,7 @@
                       for its BioHit COVID-19 Serology Testing Kit that can identify IgM (acute stage) and IgG (recovery stage) antibodies to help determine previous exposure to SARS-CoV-2,
                       the virus responsible for COVID-19.</p>
                   <p>With exclusive rights to distribution in the United States and ongoing studies at Yale and other investigational sites across the USA, Verséa is providing education,
-                      marketing and distribution of the tests in the US and globally. To learn more about the Biohit COVID-19 Antibody Testing Kit, <a href="https://verseastore.com" target="_blank">click here</a>.</p>
+                      marketing and distribution of the tests in the US and globally. To learn more about the Biohit COVID-19 Antibody Testing Kit, <a href="mailto:Info@versea.com">click here</a>.</p>
 
               </div>
           </div>
